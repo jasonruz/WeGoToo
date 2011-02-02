@@ -12,6 +12,7 @@
 @implementation WeGoTooAppDelegate
 
 @synthesize window;
+@synthesize tabBarController;
 
 
 #pragma mark -
@@ -20,7 +21,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {    
     
     // Override point for customization after application launch.
-    
+    [window addSubview:tabBarController.view];
     [self.window makeKeyAndVisible];
     
     return YES;

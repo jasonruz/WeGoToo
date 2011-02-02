@@ -1,5 +1,19 @@
 // !$*UTF8*$!
 {
+	1D3623240D0F684500981E51 /* WeGoTooAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {691, 467}}";
+			sepNavSelRange = "{649, 0}";
+			sepNavVisRange = "{0, 988}";
+		};
+	};
+	1D3623250D0F684500981E51 /* WeGoTooAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1965, 2821}}";
+			sepNavSelRange = "{556, 0}";
+			sepNavVisRange = "{271, 860}";
+		};
+	};
 	1D6058900D05DD3D006BFB54 /* WeGoToo */ = {
 		activeExec = 0;
 		executables = (
@@ -9,7 +23,11 @@
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
 		activeBuildConfigurationName = Debug;
 		activeExecutable = 8404C04112F7F7D1008FE3A2 /* WeGoToo */;
+		activeSDKPreference = iphonesimulator4.2;
 		activeTarget = 1D6058900D05DD3D006BFB54 /* WeGoToo */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* WeGoToo */,
+		);
 		codeSenseManager = 8404C04D12F7F7F5008FE3A2 /* Code sense */;
 		executables = (
 			8404C04112F7F7D1008FE3A2 /* WeGoToo */,
@@ -20,9 +38,9 @@
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
 				PBXFileTableDataSourceColumnWidthsKey = (
 					20,
-					341,
+					361,
 					20,
-					48.16259765625,
+					48,
 					43,
 					43,
 					20,
@@ -37,8 +55,20 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 318240721;
-			PBXWorkspaceStateSaveDate = 318240721;
+			PBXPerProjectTemplateStateSaveDate = 318314426;
+			PBXWorkspaceStateSaveDate = 318314426;
+		};
+		perUserProjectItems = {
+			8404C05E12F7FAF9008FE3A2 = 8404C05E12F7FAF9008FE3A2 /* PBXTextBookmark */;
+			8404C09C12F800D5008FE3A2 = 8404C09C12F800D5008FE3A2 /* PBXTextBookmark */;
+			8404C09D12F800D5008FE3A2 = 8404C09D12F800D5008FE3A2 /* PBXTextBookmark */;
+			8404C0D112F82766008FE3A2 = 8404C0D112F82766008FE3A2 /* PBXTextBookmark */;
+			8404C0D212F82766008FE3A2 = 8404C0D212F82766008FE3A2 /* PBXTextBookmark */;
+			8404C0D312F82766008FE3A2 = 8404C0D312F82766008FE3A2 /* PBXTextBookmark */;
+			84A1E29112F917C700BB82C8 /* PBXTextBookmark */ = 84A1E29112F917C700BB82C8 /* PBXTextBookmark */;
+			84A1E2A712F9182E00BB82C8 /* PBXTextBookmark */ = 84A1E2A712F9182E00BB82C8 /* PBXTextBookmark */;
+			84A1E2A812F9182E00BB82C8 /* PBXTextBookmark */ = 84A1E2A812F9182E00BB82C8 /* PBXTextBookmark */;
+			84A1E2A912F9182E00BB82C8 /* PBXTextBookmark */ = 84A1E2A912F9182E00BB82C8 /* PBXTextBookmark */;
 		};
 		sourceControlManager = 8404C04C12F7F7F5008FE3A2 /* Source Control */;
 		userBuildSettings = {
@@ -60,6 +90,7 @@
 		dataTipSortType = 0;
 		debuggerPlugin = GDBDebugging;
 		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
 		enableDebugStr = 1;
 		environmentEntries = (
 		);
@@ -84,5 +115,140 @@
 	8404C04D12F7F7F5008FE3A2 /* Code sense */ = {
 		isa = PBXCodeSenseManager;
 		indexTemplatePath = "";
+	};
+	8404C05E12F7FAF9008FE3A2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* WeGoTooAppDelegate.h */;
+		name = "WeGoTooAppDelegate.h: 23";
+		rLen = 0;
+		rLoc = 649;
+		rType = 0;
+		vrLen = 766;
+		vrLoc = 151;
+	};
+	8404C08B12F7FE85008FE3A2 /* MyTripsList.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {519, 245}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 229}";
+		};
+	};
+	8404C08C12F7FE85008FE3A2 /* MyTripsList.m */ = {
+		uiCtxt = {
+			sepNavFolds = "{\n    c =     (\n                {\n            l = DetailViewController;\n            r = \"{3556, 24}\";\n            s = 1;\n        },\n                {\n            l = DetailViewController;\n            r = \"{3607, 24}\";\n            s = 1;\n        },\n                {\n            l = \"Nib name\";\n            r = \"{3657, 12}\";\n            s = 1;\n        }\n    );\n    r = \"{0, 4358}\";\n    s = 0;\n}";
+			sepNavIntBoundsRect = "{{0, 0}, {908, 2262}}";
+			sepNavSelRange = "{1509, 59}";
+			sepNavVisRange = "{1005, 974}";
+		};
+	};
+	8404C09C12F800D5008FE3A2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8404C08B12F7FE85008FE3A2 /* MyTripsList.h */;
+		name = "MyTripsList.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 229;
+		vrLoc = 0;
+	};
+	8404C09D12F800D5008FE3A2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* WeGoTooAppDelegate.m */;
+		name = "WeGoTooAppDelegate.m: 24";
+		rLen = 0;
+		rLoc = 556;
+		rType = 0;
+		vrLen = 860;
+		vrLoc = 271;
+	};
+	8404C0C012F81F27008FE3A2 /* TripSearch.h */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.h;
+		name = TripSearch.h;
+		path = /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/TripSearch.h;
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {539, 467}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 227}";
+		};
+	};
+	8404C0D112F82766008FE3A2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8404C0C012F81F27008FE3A2 /* TripSearch.h */;
+		name = "TripSearch.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 227;
+		vrLoc = 0;
+	};
+	8404C0D212F82766008FE3A2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8404C08C12F7FE85008FE3A2 /* MyTripsList.m */;
+		name = "MyTripsList.m: 71";
+		rLen = 59;
+		rLoc = 1509;
+		rType = 0;
+		vrLen = 973;
+		vrLoc = 1005;
+	};
+	8404C0D312F82766008FE3A2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8404C08C12F7FE85008FE3A2 /* MyTripsList.m */;
+		name = "MyTripsList.m: 71";
+		rLen = 59;
+		rLoc = 1509;
+		rType = 0;
+		vrLen = 975;
+		vrLoc = 1005;
+	};
+	84A1E29112F917C700BB82C8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8404C08C12F7FE85008FE3A2 /* MyTripsList.m */;
+		name = "MyTripsList.m: 71";
+		rLen = 59;
+		rLoc = 1509;
+		rType = 0;
+		vrLen = 973;
+		vrLoc = 1005;
+	};
+	84A1E2A112F9182500BB82C8 /* TripSearch.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {539, 467}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 227}";
+		};
+	};
+	84A1E2A712F9182E00BB82C8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8404C08C12F7FE85008FE3A2 /* MyTripsList.m */;
+		name = "MyTripsList.m: 71";
+		rLen = 59;
+		rLoc = 1509;
+		rType = 0;
+		vrLen = 974;
+		vrLoc = 1005;
+	};
+	84A1E2A812F9182E00BB82C8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 84A1E2A112F9182500BB82C8 /* TripSearch.h */;
+		name = "TripSearch.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 227;
+		vrLoc = 0;
+	};
+	84A1E2A912F9182E00BB82C8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* WeGoTooAppDelegate.h */;
+		name = "WeGoTooAppDelegate.h: 23";
+		rLen = 0;
+		rLoc = 649;
+		rType = 0;
+		vrLen = 988;
+		vrLoc = 0;
 	};
 }
