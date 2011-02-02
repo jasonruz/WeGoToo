@@ -11,6 +11,16 @@
 
 @implementation TripSearch
 
+#pragma mark -
+#pragma mark Initializer
+- (id)init {
+	NSLog(@"Finished init.");
+	return self;
+}
+
+- (id)initWithStyle:(UITableViewStyle)style {
+	return [self init]; 
+}
 
 #pragma mark -
 #pragma mark View lifecycle
@@ -52,25 +62,39 @@
 }
 */
 
+#pragma mark -
+#pragma mark IBActions
+- (IBAction)logHello {
+	NSLog(@"Hi.");
+}
 
+
+- (IBAction)sliderValueChanged:(UISlider *)slider {
+	
+	cell2Label.text = [NSString stringWithFormat:@"%.1f", slider.value];
+}
+ 
 #pragma mark -
 #pragma mark Table view data source
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
     // Return the number of sections.
-    return 0;
+    return 5;
 }
 
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     // Return the number of rows in the section.
-    return 0;
+	if (section == 0) {
+		return 2;
+	}
+	return 1;
 }
 
 
 // Customize the appearance of table view cells.
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    
+    /*
     static NSString *CellIdentifier = @"Cell";
     
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
@@ -81,8 +105,92 @@
     // Configure the cell...
     
     return cell;
+	 */
+	
+	if ([indexPath section] == 0) {
+		// Location cells -- used a custom cell in IB but probably could
+		// have been done in code using Style2
+		if ([indexPath row] == 0) {
+			// From Location cell
+			return cell0;
+		}
+		// To Location cell
+		return cell1;
+/*	} else if ([indexPath section] == 3) {
+		UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"SegmentedCell"];
+		if (!cell) {
+			cell = [[[UITableViewCell alloc]
+					 initWithStyle:UITableViewCellStyleDefault
+					 reuseIdentifier:@"SegmentedCell"] autorelease];
+		}
+		// Why does everyone have different numbers for the CGRect?
+		UISegmentedControl *segmentedControl = [[UISegmentedControl alloc]
+												initWithFrame:CGRectMake(-1.0f, -1.0f, 302.0f, 46.0f)];
+		[segmentedControl insertSegmentWithTitle:@"Car" atIndex:0 animated:NO];
+		[segmentedControl insertSegmentWithTitle:@"Taxi" atIndex:1 animated:NO];
+		[segmentedControl insertSegmentWithTitle:@"Bicycle" atIndex:2 animated:NO];
+		[cell.contentView addSubview:segmentedControl];
+		return cell;
+ */
+	} else if ([indexPath section] == 4) {
+		// Use a Button for "Find Trips"
+		UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"ButtonCell"];
+		if (!cell) {
+			cell = [[[UITableViewCell alloc]
+					 initWithStyle:UITableViewCellStyleDefault
+					 reuseIdentifier:@"ButtonCell"] autorelease];
+		}
+		UIButton *button = [UIButton buttonWithType:UIButtonTypeRoundedRect];
+		[button setFrame:CGRectMake(-1.0f, -1.0f, 302.0f, 46.0f)];
+		[button setTitle:@"Find Trips" forState:UIControlStateNormal];
+		[cell.contentView addSubview:button];
+		return cell;
+	} else {
+		// Use a Style 1 Cell for the Time, Cost and Transport Type
+		UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Style1Cell"];
+		if (!cell) {
+			cell = [[[UITableViewCell alloc]
+					 initWithStyle:UITableViewCellStyleValue1
+					 reuseIdentifier:@"Style1Cell"] autorelease];
+		}
+		[cell setAccessoryType:UITableViewCellAccessoryDisclosureIndicator];
+
+		switch ([indexPath section]) {
+			case 1:
+				[[cell textLabel] setText:@"Arrive by"];
+				[[cell detailTextLabel] setText:@"9 am on Monday"];
+				break;
+			case 2:
+				[[cell textLabel] setText:@"Maximum cost"];
+				[[cell detailTextLabel] setText:@"$5.00"];
+				break;
+			case 3:
+				[[cell textLabel] setText:@"Transport type"];
+				[[cell detailTextLabel] setText:@"Car, Taxi, Bicycle"];
+				break;
+			default:
+				break;
+		}
+		return cell;
+	}
+	
+	/*
+	NSArray *section0 = [NSArray arrayWithObjects:cell0, cell1, nil];
+	NSArray *section1 = [NSArray arrayWithObjects:cell2, nil];
+	sections = [NSArray arrayWithObjects:section0, section1, nil];	
+	
+	
+	return [[sections objectAtIndex:[indexPath section]]
+					  objectAtIndex:[indexPath row]];
+	 */
 }
 
+/*
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    return 50.0; // your dynamic height...
+}
+*/
 
 /*
 // Override to support conditional editing of the table view.
