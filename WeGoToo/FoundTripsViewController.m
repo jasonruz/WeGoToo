@@ -1,28 +1,29 @@
 //
-//  MyTripsList.m
+//  FoundTripsViewController.m
 //  WeGoToo
 //
-//  Created by Dian Tjondronegoro on 1/02/11.
-//  Copyright 2011 __MyCompanyName__. All rights reserved.
+//  Created by Jason on 3/02/11.
+//  Copyright 2011 Jason. All rights reserved.
 //
 
-#import "MyTripsList.h"
+#import "FoundTripsViewController.h"
 
 
-@implementation MyTripsList
+@implementation FoundTripsViewController
 
 
 #pragma mark -
 #pragma mark View lifecycle
 
-/*
+
 - (void)viewDidLoad {
     [super viewDidLoad];
 
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+	[self setTitle:@"Trips"];
 }
-*/
+
 
 /*
 - (void)viewWillAppear:(BOOL)animated {

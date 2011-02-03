@@ -2,18 +2,18 @@
 //  TripSearch.h
 //  WeGoToo
 //
-//  Created by Dian Tjondronegoro on 2/02/11.
-//  Copyright 2011 __MyCompanyName__. All rights reserved.
+//  Created by Jason on 2/02/11.
+//  Copyright 2011 Jason. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
+@class FoundTripsViewController;
 
-
-@interface TripSearch : UITableViewController {
+@interface TripSearchViewController : UITableViewController {
 	UITableViewCell *cell0;
 	UITableViewCell *cell1;
 	UITableViewCell *cell2;
-	UILabel *cell2Label;
+	FoundTripsViewController *foundTripsListViewController;
 }
 
 @property (nonatomic, retain) IBOutlet UITableViewCell *cell0;

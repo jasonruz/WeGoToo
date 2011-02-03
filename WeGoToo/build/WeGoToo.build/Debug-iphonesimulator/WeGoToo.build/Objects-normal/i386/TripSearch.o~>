@@ -1,8 +1,0 @@
-/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/Classes/TripSearch.m:271: warning: property 'cell0' requires method '-cell0' to be defined - use @synthesize, @dynamic or provide a method implementation
-/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/Classes/TripSearch.m:271: warning: property 'cell0' requires the method 'setCell0:' to be defined - use @synthesize, @dynamic or provide a method implementation
-/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/Classes/TripSearch.m:271: warning: property 'cell1' requires method '-cell1' to be defined - use @synthesize, @dynamic or provide a method implementation
-/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/Classes/TripSearch.m:271: warning: property 'cell1' requires the method 'setCell1:' to be defined - use @synthesize, @dynamic or provide a method implementation
-/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/Classes/TripSearch.m:271: warning: property 'cell2' requires method '-cell2' to be defined - use @synthesize, @dynamic or provide a method implementation
-/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/Classes/TripSearch.m:271: warning: property 'cell2' requires the method 'setCell2:' to be defined - use @synthesize, @dynamic or provide a method implementation
-/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/Classes/TripSearch.m:271: warning: property 'cell2Label' requires method '-cell2Label' to be defined - use @synthesize, @dynamic or provide a method implementation
-/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/Classes/TripSearch.m:271: warning: property 'cell2Label' requires the method 'setCell2Label:' to be defined - use @synthesize, @dynamic or provide a method implementation

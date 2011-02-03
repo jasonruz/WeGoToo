@@ -2,37 +2,27 @@
 //  TripSearch.m
 //  WeGoToo
 //
-//  Created by Dian Tjondronegoro on 2/02/11.
-//  Copyright 2011 __MyCompanyName__. All rights reserved.
+//  Created by Jason on 2/02/11.
+//  Copyright 2011 Jason. All rights reserved.
 //
 
-#import "TripSearch.h"
+#import "TripSearchViewController.h"
+#import "FoundTripsViewController.h"
 
-
-@implementation TripSearch
-
-#pragma mark -
-#pragma mark Initializer
-- (id)init {
-	NSLog(@"Finished init.");
-	return self;
-}
-
-- (id)initWithStyle:(UITableViewStyle)style {
-	return [self init]; 
-}
+@implementation TripSearchViewController
 
 #pragma mark -
 #pragma mark View lifecycle
 
-/*
+
 - (void)viewDidLoad {
     [super viewDidLoad];
 
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+	[self setTitle:@"WeGoToo"];
 }
-*/
+
 
 /*
 - (void)viewWillAppear:(BOOL)animated {
@@ -62,18 +52,6 @@
 }
 */
 
-#pragma mark -
-#pragma mark IBActions
-- (IBAction)logHello {
-	NSLog(@"Hi.");
-}
-
-
-- (IBAction)sliderValueChanged:(UISlider *)slider {
-	
-	cell2Label.text = [NSString stringWithFormat:@"%.1f", slider.value];
-}
- 
 #pragma mark -
 #pragma mark Table view data source
 
@@ -143,6 +121,9 @@
 		UIButton *button = [UIButton buttonWithType:UIButtonTypeRoundedRect];
 		[button setFrame:CGRectMake(-1.0f, -1.0f, 302.0f, 46.0f)];
 		[button setTitle:@"Find Trips" forState:UIControlStateNormal];
+		[button addTarget:self
+					   action:@selector(findButtonPressed:) 
+			 forControlEvents:UIControlEventTouchUpInside];
 		[cell.contentView addSubview:button];
 		return cell;
 	} else {
@@ -246,6 +227,14 @@
     */
 }
 
+- (void)findButtonPressed:(id)sender {
+	NSLog(@"Hi.");
+	FoundTripsViewController *foundTripsViewController = [[FoundTripsViewController alloc] 
+														  initWithNibName:@"FoundTripsView"
+														  bundle:nil];
+	[self.navigationController pushViewController:foundTripsViewController animated:YES];
+	[foundTripsViewController release];
+}
 
 #pragma mark -
 #pragma mark Memory management

@@ -1,18 +1,20 @@
 TWeGoToo
 v7
 r0
-t318330186.439029
+t318405793.724059
 cCheck dependencies
 cProcessInfoPlistFile /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/Debug-iphonesimulator/WeGoToo.app/Info.plist WeGoToo-Info.plist
 cCompileXIB /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/MainWindow.xib
-cCompileXIB /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/Classes/MyTripsList.xib
-cCompileXIB /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/Classes/TripSearch.xib
+cCompileXIB /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/Classes/MyTripsView.xib
+cCompileXIB /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/Classes/TripSearchView.xib
+cCompileXIB /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/Classes/../FoundTripsView.xib
 cProcessPCH /var/folders/DE/DE-L9NAQHy4JThNNZwZ2Dk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WeGoToo_Prefix-bplwochdyeypwjfiszzpldyolare/WeGoToo_Prefix.pch.gch WeGoToo_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
 cDataModelVersionCompile /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/Debug-iphonesimulator/WeGoToo.app/WeGoToo.momd /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/WeGoToo.xcdatamodeld
 cCompileC build/WeGoToo.build/Debug-iphonesimulator/WeGoToo.build/Objects-normal/i386/main.o /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/WeGoToo.build/Debug-iphonesimulator/WeGoToo.build/Objects-normal/i386/WeGoTooAppDelegate.o /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/Classes/WeGoTooAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/WeGoToo.build/Debug-iphonesimulator/WeGoToo.build/Objects-normal/i386/MyTripsList.o /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/Classes/MyTripsList.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/WeGoToo.build/Debug-iphonesimulator/WeGoToo.build/Objects-normal/i386/TripSearch.o /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/Classes/TripSearch.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/WeGoToo.build/Debug-iphonesimulator/WeGoToo.build/Objects-normal/i386/MyTripsViewController.o /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/Classes/MyTripsViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/WeGoToo.build/Debug-iphonesimulator/WeGoToo.build/Objects-normal/i386/TripSearchViewController.o /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/Classes/TripSearchViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/WeGoToo.build/Debug-iphonesimulator/WeGoToo.build/Objects-normal/i386/FoundTripsViewController.o /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/Classes/../FoundTripsViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
 cLd /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/Debug-iphonesimulator/WeGoToo.app/WeGoToo normal i386
 cGenerateDSYMFile /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/Debug-iphonesimulator/WeGoToo.app.dSYM /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/Debug-iphonesimulator/WeGoToo.app/WeGoToo
 cTouch /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/Debug-iphonesimulator/WeGoToo.app
@@ -62,50 +64,76 @@ c000000004CB3FA080000000000001ADD
 t1286863368
 s6877
 
-N/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/Classes/../TripSearch.m
-c000000004D47E7D40000000000001103
-t1296558036
-s4355
-i"TripSearch.h"
+N/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/Classes/../FoundTripsView.xib
+c000000004D4A43B400000000000064F6
+t1296712628
+s25846
 
-N/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/Classes/../TripSearch.xib
-c000000004D47EFE00000000000004E28
-t1296560096
-s20008
+N/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/Classes/../FoundTripsViewController.m
+c000000004D4A4520000000000000112B
+t1296712992
+s4395
+i"FoundTripsViewController.h"
 
-N/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/Classes/MyTripsList.h
-c000000004D47C70400000000000000E5
-t1296549636
-s229
+N/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/Classes/../FoundTripsViewController.xib
+c000000004D4A42940000000000001C93
+t1296712340
+s7315
+
+N/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/Classes/FoundTripsView.xib
+c00000000000000000000000000000000
+t2
+s0
+
+N/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/Classes/FoundTripsViewController.h
+c00000000000000000000000000000000
+t2
+s0
+
+N/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/Classes/FoundTripsViewController.m
+c00000000000000000000000000000000
+t2
+s0
+
+N/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/Classes/FoundTripsViewController.xib
+c000000004D4A3FB80000000000004975
+t1296711608
+s18805
+
+N/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/Classes/MyTripsView.xib
+c000000004D4A3F1A0000000000004B22
+t1296711450
+s19234
+
+N/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/Classes/MyTripsViewController.h
+c000000004D4A452000000000000000D6
+t1296712992
+s214
 i<UIKit/UIKit.h>
 
-N/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/Classes/MyTripsList.m
-c000000004D47C8820000000000001106
-t1296550018
-s4358
-i"MyTripsList.h"
+N/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/Classes/MyTripsViewController.m
+c000000004D4A45200000000000001101
+t1296712992
+s4353
+i"MyTripsViewController.h"
 
-N/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/Classes/MyTripsList.xib
-c000000004D47C7040000000000001C6C
-t1296549636
-s7276
+N/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/Classes/TripSearchView.xib
+c000000004D4A3D82000000000000935F
+t1296711042
+s37727
 
-N/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/Classes/TripSearch.h
-c000000004D4910A60000000000000286
-t1296634022
-s646
+N/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/Classes/TripSearchViewController.h
+c000000004D492BBE00000000000002BE
+t1296640958
+s702
 i<UIKit/UIKit.h>
 
-N/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/Classes/TripSearch.m
-c000000004D491F860000000000001DEE
-t1296637830
-s7662
-i"TripSearch.h"
-
-N/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/Classes/TripSearch.xib
-c000000004D49074A000000000000A777
-t1296631626
-s42871
+N/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/Classes/TripSearchViewController.m
+c000000004D4A40DC0000000000001E8C
+t1296711900
+s7820
+i"TripSearchViewController.h"
+i"FoundTripsViewController.h"
 
 N/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/Classes/WeGoTooAppDelegate.h
 c000000004D47C31A00000000000003DC
@@ -115,32 +143,32 @@ i<UIKit/UIKit.h>
 i<CoreData/CoreData.h>
 
 N/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/Classes/WeGoTooAppDelegate.m
-c000000004D47C85A0000000000001E2B
-t1296549978
-s7723
+c000000004D492F380000000000001E2D
+t1296641848
+s7725
 i"WeGoTooAppDelegate.h"
 
-N/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/MainWindow.xib
-c000000004D47C8180000000000007554
-t1296549912
-s30036
-
-N/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/TripSearch.h
-c000000004D47E7A600000000000000E3
-t1296557990
-s227
+N/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/FoundTripsViewController.h
+c000000004D4A452000000000000000E6
+t1296712992
+s230
 i<UIKit/UIKit.h>
 
-N/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/TripSearch.m
-c000000004D47E7A60000000000001134
-t1296557990
-s4404
-i"TripSearch.h"
+N/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/FoundTripsViewController.m
+c000000004D4A4294000000000000115E
+t1296712340
+s4446
+i"FoundTripsViewController.h"
 
-N/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/TripSearch.xib
-c000000004D47E7A60000000000001C69
-t1296557990
-s7273
+N/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/FoundTripsViewController.xib
+c000000004D4A42940000000000001C93
+t1296712340
+s7315
+
+N/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/MainWindow.xib
+c000000004D4A3D280000000000008A3D
+t1296710952
+s35389
 
 N/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/WeGoToo.xcdatamodeld
 c000000004D47C0500000000000001000
@@ -157,60 +185,72 @@ i<UIKit/UIKit.h>
 i<CoreData/CoreData.h>
 
 N/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/Debug-iphonesimulator/WeGoToo.app
-t1296637386
+t1296712992
 s4096
 
 N/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/Debug-iphonesimulator/WeGoToo.app.dSYM
-t1296637386
+t1296712992
 s4096
 
+N/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/Debug-iphonesimulator/WeGoToo.app/FoundTripsView.nib
+t1296712636
+s2281
+
+N/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/Debug-iphonesimulator/WeGoToo.app/FoundTripsViewController.nib
+t1296711644
+s971
+
 N/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/Debug-iphonesimulator/WeGoToo.app/Info.plist
-t1296548540
+t1296711528
 s591
 
 N/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/Debug-iphonesimulator/WeGoToo.app/MainWindow.nib
-t1296549980
-s1979
+t1296711528
+s2040
 
-N/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/Debug-iphonesimulator/WeGoToo.app/MyTripsList.nib
-t1296549980
-s979
+N/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/Debug-iphonesimulator/WeGoToo.app/MyTripsView.nib
+t1296711528
+s971
 
 N/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/Debug-iphonesimulator/WeGoToo.app/PkgInfo
-t1296548540
+t1296711528
 s8
 
-N/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/Debug-iphonesimulator/WeGoToo.app/TripSearch.nib
-t1296631640
-s3587
+N/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/Debug-iphonesimulator/WeGoToo.app/TripSearchView.nib
+t1296711528
+s2931
 
 N/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/Debug-iphonesimulator/WeGoToo.app/WeGoToo
-t1296637386
-s26204
+t1296712992
+s28404
 
 N/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/Debug-iphonesimulator/WeGoToo.app/WeGoToo.momd
-t1296548542
+t1296711530
 s4096
 
-N/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/WeGoToo.build/Debug-iphonesimulator/WeGoToo.build/Objects-normal/i386/MyTripsList.o
-t1296550018
-s40928
+N/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/WeGoToo.build/Debug-iphonesimulator/WeGoToo.build/Objects-normal/i386/FoundTripsViewController.o
+t1296712992
+s42056
 
-N/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/WeGoToo.build/Debug-iphonesimulator/WeGoToo.build/Objects-normal/i386/TripSearch.o
-t1296637386
-s48388
+N/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/WeGoToo.build/Debug-iphonesimulator/WeGoToo.build/Objects-normal/i386/MyTripsViewController.o
+t1296712992
+s41256
+
+N/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/WeGoToo.build/Debug-iphonesimulator/WeGoToo.build/Objects-normal/i386/TripSearchViewController.o
+t1296712992
+s48820
 
 N/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/WeGoToo.build/Debug-iphonesimulator/WeGoToo.build/Objects-normal/i386/WeGoToo.LinkFileList
-c000000004D47E7B800000000000001FB
-t1296558008
-s507
+c000000004D4A3FDA000000000000029F
+t1296711642
+s671
 
 N/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/WeGoToo.build/Debug-iphonesimulator/WeGoToo.build/Objects-normal/i386/WeGoTooAppDelegate.o
-t1296549982
+t1296711530
 s65144
 
 N/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/WeGoToo.build/Debug-iphonesimulator/WeGoToo.build/Objects-normal/i386/main.o
-t1296548542
+t1296711530
 s6300
 
 N/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/main.m
@@ -220,7 +260,7 @@ s367
 i<UIKit/UIKit.h>
 
 N/var/folders/DE/DE-L9NAQHy4JThNNZwZ2Dk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WeGoToo_Prefix-bplwochdyeypwjfiszzpldyolare/WeGoToo_Prefix.pch.gch
-t1296548542
+t1296711530
 s16326640
 
 NWeGoToo-Info.plist
@@ -230,61 +270,77 @@ s909
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies318330186#318330186#0(0"0(0#1#0"8638617536#0"0#
+lSLF07#2@18"Check dependencies318405792#318405792#0(0"0(0#1#0"8608392896#0"0#
 
-CCompileC build/WeGoToo.build/Debug-iphonesimulator/WeGoToo.build/Objects-normal/i386/MyTripsList.o /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/Classes/MyTripsList.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s318242819.717419
-e318242819.851874
+CCompileC build/WeGoToo.build/Debug-iphonesimulator/WeGoToo.build/Objects-normal/i386/FoundTripsViewController.o /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/Classes/../FoundTripsViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s318405792.951387
+e318405793.021654
 r1
 xCompileC
-xbuild/WeGoToo.build/Debug-iphonesimulator/WeGoToo.build/Objects-normal/i386/MyTripsList.o
-x/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/Classes/MyTripsList.m
+xbuild/WeGoToo.build/Debug-iphonesimulator/WeGoToo.build/Objects-normal/i386/FoundTripsViewController.o
+x/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/Classes/../FoundTripsViewController.m
 xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@66"Compile /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/Classes/MyTripsList.m318242819#318242819#0(0"0(0#0#58"/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/Classes/MyTripsList.m8655975360#1914"    cd /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/WeGoToo.build/Debug-iphonesimulator/WeGoToo.build/WeGoToo-generated-files.hmap -I/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/WeGoToo.build/Debug-iphonesimulator/WeGoToo.build/WeGoToo-own-target-headers.hmap -I/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/WeGoToo.build/Debug-iphonesimulator/WeGoToo.build/WeGoToo-all-target-headers.hmap -iquote /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/WeGoToo.build/Debug-iphonesimulator/WeGoToo.build/WeGoToo-project-headers.hmap -F/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/Debug-iphonesimulator -I/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/Debug-iphonesimulator/include -I/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/WeGoToo.build/Debug-iphonesimulator/WeGoToo.build/DerivedSources/i386 -I/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/WeGoToo.build/Debug-iphonesimulator/WeGoToo.build/DerivedSources -include /var/folders/DE/DE-L9NAQHy4JThNNZwZ2Dk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WeGoToo_Prefix-bplwochdyeypwjfiszzpldyolare/WeGoToo_Prefix.pch -c /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/Classes/MyTripsList.m -o /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/WeGoToo.build/Debug-iphonesimulator/WeGoToo.build/Objects-normal/i386/MyTripsList.o0#
+lSLF07#2@82"Compile /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/Classes/../FoundTripsViewController.m318405792#318405793#0(0"0(0#0#74"/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/Classes/../FoundTripsViewController.m8619490528#2005"    cd /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/WeGoToo.build/Debug-iphonesimulator/WeGoToo.build/WeGoToo-generated-files.hmap -I/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/WeGoToo.build/Debug-iphonesimulator/WeGoToo.build/WeGoToo-own-target-headers.hmap -I/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/WeGoToo.build/Debug-iphonesimulator/WeGoToo.build/WeGoToo-all-target-headers.hmap -iquote /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/WeGoToo.build/Debug-iphonesimulator/WeGoToo.build/WeGoToo-project-headers.hmap -F/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/Debug-iphonesimulator -I/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/Debug-iphonesimulator/include -I/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/WeGoToo.build/Debug-iphonesimulator/WeGoToo.build/DerivedSources/i386 -I/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/WeGoToo.build/Debug-iphonesimulator/WeGoToo.build/DerivedSources -include /var/folders/DE/DE-L9NAQHy4JThNNZwZ2Dk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WeGoToo_Prefix-bplwochdyeypwjfiszzpldyolare/WeGoToo_Prefix.pch -c /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/Classes/../FoundTripsViewController.m -o /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/WeGoToo.build/Debug-iphonesimulator/WeGoToo.build/Objects-normal/i386/FoundTripsViewController.o0#
 
-CCompileC build/WeGoToo.build/Debug-iphonesimulator/WeGoToo.build/Objects-normal/i386/TripSearch.o /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/Classes/../TripSearch.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s318250836.297690
-e318250836.489665
+CCompileC build/WeGoToo.build/Debug-iphonesimulator/WeGoToo.build/Objects-normal/i386/FoundTripsViewController.o /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/Classes/FoundTripsViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s318404444.264587
+e318404444.734517
 r1
 xCompileC
-xbuild/WeGoToo.build/Debug-iphonesimulator/WeGoToo.build/Objects-normal/i386/TripSearch.o
-x/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/Classes/../TripSearch.m
+xbuild/WeGoToo.build/Debug-iphonesimulator/WeGoToo.build/Objects-normal/i386/FoundTripsViewController.o
+x/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/Classes/FoundTripsViewController.m
 xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@68"Compile /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/Classes/../TripSearch.m318250836#318250836#0(0"0(0#0#60"/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/Classes/../TripSearch.m8616427872#1915"    cd /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/WeGoToo.build/Debug-iphonesimulator/WeGoToo.build/WeGoToo-generated-files.hmap -I/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/WeGoToo.build/Debug-iphonesimulator/WeGoToo.build/WeGoToo-own-target-headers.hmap -I/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/WeGoToo.build/Debug-iphonesimulator/WeGoToo.build/WeGoToo-all-target-headers.hmap -iquote /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/WeGoToo.build/Debug-iphonesimulator/WeGoToo.build/WeGoToo-project-headers.hmap -F/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/Debug-iphonesimulator -I/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/Debug-iphonesimulator/include -I/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/WeGoToo.build/Debug-iphonesimulator/WeGoToo.build/DerivedSources/i386 -I/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/WeGoToo.build/Debug-iphonesimulator/WeGoToo.build/DerivedSources -include /var/folders/DE/DE-L9NAQHy4JThNNZwZ2Dk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WeGoToo_Prefix-bplwochdyeypwjfiszzpldyolare/WeGoToo_Prefix.pch -c /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/Classes/../TripSearch.m -o /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/WeGoToo.build/Debug-iphonesimulator/WeGoToo.build/Objects-normal/i386/TripSearch.o0#
+lSLF07#2@79"Compile /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/Classes/FoundTripsViewController.m318404444#318404444#0(0"0(0#0#71"/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/Classes/FoundTripsViewController.m8604090400#2002"    cd /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/WeGoToo.build/Debug-iphonesimulator/WeGoToo.build/WeGoToo-generated-files.hmap -I/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/WeGoToo.build/Debug-iphonesimulator/WeGoToo.build/WeGoToo-own-target-headers.hmap -I/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/WeGoToo.build/Debug-iphonesimulator/WeGoToo.build/WeGoToo-all-target-headers.hmap -iquote /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/WeGoToo.build/Debug-iphonesimulator/WeGoToo.build/WeGoToo-project-headers.hmap -F/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/Debug-iphonesimulator -I/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/Debug-iphonesimulator/include -I/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/WeGoToo.build/Debug-iphonesimulator/WeGoToo.build/DerivedSources/i386 -I/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/WeGoToo.build/Debug-iphonesimulator/WeGoToo.build/DerivedSources -include /var/folders/DE/DE-L9NAQHy4JThNNZwZ2Dk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WeGoToo_Prefix-bplwochdyeypwjfiszzpldyolare/WeGoToo_Prefix.pch -c /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/Classes/FoundTripsViewController.m -o /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/WeGoToo.build/Debug-iphonesimulator/WeGoToo.build/Objects-normal/i386/FoundTripsViewController.o0#
 
-CCompileC build/WeGoToo.build/Debug-iphonesimulator/WeGoToo.build/Objects-normal/i386/TripSearch.o /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/Classes/TripSearch.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s318330186.112408
-e318330186.393017
-r1
-xCompileC
-xbuild/WeGoToo.build/Debug-iphonesimulator/WeGoToo.build/Objects-normal/i386/TripSearch.o
-x/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/Classes/TripSearch.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-o/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/Classes/TripSearch.m:270: warning: property 'cell0' requires method '-cell0' to be defined - use @synthesize, @dynamic or provide a method implementation
-o/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/Classes/TripSearch.m:270: warning: property 'cell0' requires the method 'setCell0:' to be defined - use @synthesize, @dynamic or provide a method implementation
-o/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/Classes/TripSearch.m:270: warning: property 'cell1' requires method '-cell1' to be defined - use @synthesize, @dynamic or provide a method implementation
-o/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/Classes/TripSearch.m:270: warning: property 'cell1' requires the method 'setCell1:' to be defined - use @synthesize, @dynamic or provide a method implementation
-o/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/Classes/TripSearch.m:270: warning: property 'cell2' requires method '-cell2' to be defined - use @synthesize, @dynamic or provide a method implementation
-o/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/Classes/TripSearch.m:270: warning: property 'cell2' requires the method 'setCell2:' to be defined - use @synthesize, @dynamic or provide a method implementation
-o/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/Classes/TripSearch.m:270: warning: property 'cell2Label' requires method '-cell2Label' to be defined - use @synthesize, @dynamic or provide a method implementation
-o/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/Classes/TripSearch.m:270: warning: property 'cell2Label' requires the method 'setCell2Label:' to be defined - use @synthesize, @dynamic or provide a method implementation
-lSLF07#2@65"Compile /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/Classes/TripSearch.m318330186#318330186#0(1576"/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/Classes/TripSearch.m:270: warning: property 'cell0' requires method '-cell0' to be defined - use @synthesize, @dynamic or provide a method implementation/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/Classes/TripSearch.m:270: warning: property 'cell0' requires the method 'setCell0:' to be defined - use @synthesize, @dynamic or provide a method implementation/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/Classes/TripSearch.m:270: warning: property 'cell1' requires method '-cell1' to be defined - use @synthesize, @dynamic or provide a method implementation/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/Classes/TripSearch.m:270: warning: property 'cell1' requires the method 'setCell1:' to be defined - use @synthesize, @dynamic or provide a method implementation/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/Classes/TripSearch.m:270: warning: property 'cell2' requires method '-cell2' to be defined - use @synthesize, @dynamic or provide a method implementation/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/Classes/TripSearch.m:270: warning: property 'cell2' requires the method 'setCell2:' to be defined - use @synthesize, @dynamic or provide a method implementation/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/Classes/TripSearch.m:270: warning: property 'cell2Label' requires method '-cell2Label' to be defined - use @synthesize, @dynamic or provide a method implementation/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/Classes/TripSearch.m:270: warning: property 'cell2Label' requires the method 'setCell2Label:' to be defined - use @synthesize, @dynamic or provide a method implementation8(22@118"Property 'cell0' requires method '-cell0' to be defined - use @synthesize, @dynamic or provide a method implementation318330186#0#191#0(6@57"/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/Classes/TripSearch.m318330184#270#0#270#0#0"0(22@125"Property 'cell0' requires the method 'setCell0:' to be defined - use @synthesize, @dynamic or provide a method implementation318330186#191#198#0(6@57"/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/Classes/TripSearch.m318330184#270#0#270#0#0"0(22@118"Property 'cell1' requires method '-cell1' to be defined - use @synthesize, @dynamic or provide a method implementation318330186#389#191#0(6@57"/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/Classes/TripSearch.m318330184#270#0#270#0#0"0(22@125"Property 'cell1' requires the method 'setCell1:' to be defined - use @synthesize, @dynamic or provide a method implementation318330186#580#198#0(6@57"/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/Classes/TripSearch.m318330184#270#0#270#0#0"0(22@118"Property 'cell2' requires method '-cell2' to be defined - use @synthesize, @dynamic or provide a method implementation318330186#778#191#0(6@57"/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/Classes/TripSearch.m318330184#270#0#270#0#0"0(22@125"Property 'cell2' requires the method 'setCell2:' to be defined - use @synthesize, @dynamic or provide a method implementation318330186#969#198#0(6@57"/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/Classes/TripSearch.m318330184#270#0#270#0#0"0(22@128"Property 'cell2Label' requires method '-cell2Label' to be defined - use @synthesize, @dynamic or provide a method implementation318330186#1167#201#0(6@57"/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/Classes/TripSearch.m318330184#270#0#270#0#0"0(22@135"Property 'cell2Label' requires the method 'setCell2Label:' to be defined - use @synthesize, @dynamic or provide a method implementation318330186#1368#208#0(6@57"/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/Classes/TripSearch.m318330184#270#0#270#0#0"0(0#0#57"/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/Classes/TripSearch.m8612974432#1974"    cd /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/WeGoToo.build/Debug-iphonesimulator/WeGoToo.build/WeGoToo-generated-files.hmap -I/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/WeGoToo.build/Debug-iphonesimulator/WeGoToo.build/WeGoToo-own-target-headers.hmap -I/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/WeGoToo.build/Debug-iphonesimulator/WeGoToo.build/WeGoToo-all-target-headers.hmap -iquote /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/WeGoToo.build/Debug-iphonesimulator/WeGoToo.build/WeGoToo-project-headers.hmap -F/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/Debug-iphonesimulator -I/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/Debug-iphonesimulator/include -I/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/WeGoToo.build/Debug-iphonesimulator/WeGoToo.build/DerivedSources/i386 -I/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/WeGoToo.build/Debug-iphonesimulator/WeGoToo.build/DerivedSources -include /var/folders/DE/DE-L9NAQHy4JThNNZwZ2Dk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WeGoToo_Prefix-bplwochdyeypwjfiszzpldyolare/WeGoToo_Prefix.pch -c /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/Classes/TripSearch.m -o /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/WeGoToo.build/Debug-iphonesimulator/WeGoToo.build/Objects-normal/i386/TripSearch.o0#
-
-CCompileC build/WeGoToo.build/Debug-iphonesimulator/WeGoToo.build/Objects-normal/i386/TripSearch.o /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/TripSearch.m normal i386 objective-c com.apple.compilers.gcc.4_2
+CCompileC build/WeGoToo.build/Debug-iphonesimulator/WeGoToo.build/Objects-normal/i386/FoundTripsViewController.o /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/FoundTripsViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
 r0
 
+CCompileC build/WeGoToo.build/Debug-iphonesimulator/WeGoToo.build/Objects-normal/i386/MyTripsViewController.o /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/Classes/MyTripsViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s318405792.825460
+e318405792.951296
+r1
+xCompileC
+xbuild/WeGoToo.build/Debug-iphonesimulator/WeGoToo.build/Objects-normal/i386/MyTripsViewController.o
+x/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/Classes/MyTripsViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@76"Compile /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/Classes/MyTripsViewController.m318405792#318405792#0(0"0(0#0#68"/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/Classes/MyTripsViewController.m8619261600#1996"    cd /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/WeGoToo.build/Debug-iphonesimulator/WeGoToo.build/WeGoToo-generated-files.hmap -I/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/WeGoToo.build/Debug-iphonesimulator/WeGoToo.build/WeGoToo-own-target-headers.hmap -I/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/WeGoToo.build/Debug-iphonesimulator/WeGoToo.build/WeGoToo-all-target-headers.hmap -iquote /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/WeGoToo.build/Debug-iphonesimulator/WeGoToo.build/WeGoToo-project-headers.hmap -F/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/Debug-iphonesimulator -I/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/Debug-iphonesimulator/include -I/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/WeGoToo.build/Debug-iphonesimulator/WeGoToo.build/DerivedSources/i386 -I/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/WeGoToo.build/Debug-iphonesimulator/WeGoToo.build/DerivedSources -include /var/folders/DE/DE-L9NAQHy4JThNNZwZ2Dk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WeGoToo_Prefix-bplwochdyeypwjfiszzpldyolare/WeGoToo_Prefix.pch -c /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/Classes/MyTripsViewController.m -o /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/WeGoToo.build/Debug-iphonesimulator/WeGoToo.build/Objects-normal/i386/MyTripsViewController.o0#
+
+CCompileC build/WeGoToo.build/Debug-iphonesimulator/WeGoToo.build/Objects-normal/i386/TripSearchViewController.o /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/Classes/TripSearchViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s318405792.826332
+e318405792.987473
+r1
+xCompileC
+xbuild/WeGoToo.build/Debug-iphonesimulator/WeGoToo.build/Objects-normal/i386/TripSearchViewController.o
+x/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/Classes/TripSearchViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/Classes/TripSearchViewController.m:260: warning: property 'cell0' requires method '-cell0' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/Classes/TripSearchViewController.m:260: warning: property 'cell0' requires the method 'setCell0:' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/Classes/TripSearchViewController.m:260: warning: property 'cell1' requires method '-cell1' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/Classes/TripSearchViewController.m:260: warning: property 'cell1' requires the method 'setCell1:' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/Classes/TripSearchViewController.m:260: warning: property 'cell2' requires method '-cell2' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/Classes/TripSearchViewController.m:260: warning: property 'cell2' requires the method 'setCell2:' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/Classes/TripSearchViewController.m:260: warning: property 'cell2Label' requires method '-cell2Label' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/Classes/TripSearchViewController.m:260: warning: property 'cell2Label' requires the method 'setCell2Label:' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/Classes/TripSearchViewController.m:260: warning: incomplete implementation of class 'TripSearchViewController'
+o/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/Classes/TripSearchViewController.m:260: warning: method definition for '-sliderValueChanged:' not found
+o/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/Classes/TripSearchViewController.m:260: warning: method definition for '-logHello' not found
+lSLF07#2@79"Compile /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/Classes/TripSearchViewController.m318405792#318405792#0(2107"/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/Classes/TripSearchViewController.m:260: warning: property 'cell0' requires method '-cell0' to be defined - use @synthesize, @dynamic or provide a method implementation/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/Classes/TripSearchViewController.m:260: warning: property 'cell0' requires the method 'setCell0:' to be defined - use @synthesize, @dynamic or provide a method implementation/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/Classes/TripSearchViewController.m:260: warning: property 'cell1' requires method '-cell1' to be defined - use @synthesize, @dynamic or provide a method implementation/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/Classes/TripSearchViewController.m:260: warning: property 'cell1' requires the method 'setCell1:' to be defined - use @synthesize, @dynamic or provide a method implementation/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/Classes/TripSearchViewController.m:260: warning: property 'cell2' requires method '-cell2' to be defined - use @synthesize, @dynamic or provide a method implementation/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/Classes/TripSearchViewController.m:260: warning: property 'cell2' requires the method 'setCell2:' to be defined - use @synthesize, @dynamic or provide a method implementation/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/Classes/TripSearchViewController.m:260: warning: property 'cell2Label' requires method '-cell2Label' to be defined - use @synthesize, @dynamic or provide a method implementation/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/Classes/TripSearchViewController.m:260: warning: property 'cell2Label' requires the method 'setCell2Label:' to be defined - use @synthesize, @dynamic or provide a method implementation/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/Classes/TripSearchViewController.m:260: warning: incomplete implementation of class 'TripSearchViewController'/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/Classes/TripSearchViewController.m:260: warning: method definition for '-sliderValueChanged:' not found/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/Classes/TripSearchViewController.m:260: warning: method definition for '-logHello' not found11(22@118"Property 'cell0' requires method '-cell0' to be defined - use @synthesize, @dynamic or provide a method implementation318405792#0#205#0(6@71"/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/Classes/TripSearchViewController.m318404700#260#0#260#0#0"0(22@125"Property 'cell0' requires the method 'setCell0:' to be defined - use @synthesize, @dynamic or provide a method implementation318405792#205#212#0(6@71"/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/Classes/TripSearchViewController.m318404700#260#0#260#0#0"0(22@118"Property 'cell1' requires method '-cell1' to be defined - use @synthesize, @dynamic or provide a method implementation318405792#417#205#0(6@71"/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/Classes/TripSearchViewController.m318404700#260#0#260#0#0"0(22@125"Property 'cell1' requires the method 'setCell1:' to be defined - use @synthesize, @dynamic or provide a method implementation318405792#622#212#0(6@71"/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/Classes/TripSearchViewController.m318404700#260#0#260#0#0"0(22@118"Property 'cell2' requires method '-cell2' to be defined - use @synthesize, @dynamic or provide a method implementation318405792#834#205#0(6@71"/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/Classes/TripSearchViewController.m318404700#260#0#260#0#0"0(22@125"Property 'cell2' requires the method 'setCell2:' to be defined - use @synthesize, @dynamic or provide a method implementation318405792#1039#212#0(6@71"/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/Classes/TripSearchViewController.m318404700#260#0#260#0#0"0(22@128"Property 'cell2Label' requires method '-cell2Label' to be defined - use @synthesize, @dynamic or provide a method implementation318405792#1251#215#0(6@71"/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/Classes/TripSearchViewController.m318404700#260#0#260#0#0"0(22@135"Property 'cell2Label' requires the method 'setCell2Label:' to be defined - use @synthesize, @dynamic or provide a method implementation318405792#1466#222#0(6@71"/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/Classes/TripSearchViewController.m318404700#260#0#260#0#0"0(22@61"Incomplete implementation of class 'TripSearchViewController'318405792#1688#148#0(6@71"/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/Classes/TripSearchViewController.m318404700#260#0#260#0#38"incomplete implementation of class '*'0(22@54"Method definition for '-sliderValueChanged:' not found318405792#1836#141#0(6@71"/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/Classes/TripSearchViewController.m318404700#260#0#260#0#35"method definition for '*' not found0(22@43"Method definition for '-logHello' not found318405792#1977#130#0(6@71"/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/Classes/TripSearchViewController.m318404700#260#0#260#0#35"method definition for '*' not found0(0#0#71"/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/Classes/TripSearchViewController.m8620666624#2002"    cd /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/WeGoToo.build/Debug-iphonesimulator/WeGoToo.build/WeGoToo-generated-files.hmap -I/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/WeGoToo.build/Debug-iphonesimulator/WeGoToo.build/WeGoToo-own-target-headers.hmap -I/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/WeGoToo.build/Debug-iphonesimulator/WeGoToo.build/WeGoToo-all-target-headers.hmap -iquote /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/WeGoToo.build/Debug-iphonesimulator/WeGoToo.build/WeGoToo-project-headers.hmap -F/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/Debug-iphonesimulator -I/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/Debug-iphonesimulator/include -I/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/WeGoToo.build/Debug-iphonesimulator/WeGoToo.build/DerivedSources/i386 -I/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/WeGoToo.build/Debug-iphonesimulator/WeGoToo.build/DerivedSources -include /var/folders/DE/DE-L9NAQHy4JThNNZwZ2Dk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WeGoToo_Prefix-bplwochdyeypwjfiszzpldyolare/WeGoToo_Prefix.pch -c /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/Classes/TripSearchViewController.m -o /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/WeGoToo.build/Debug-iphonesimulator/WeGoToo.build/Objects-normal/i386/TripSearchViewController.o0#
+
 CCompileC build/WeGoToo.build/Debug-iphonesimulator/WeGoToo.build/Objects-normal/i386/WeGoTooAppDelegate.o /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/Classes/WeGoTooAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s318242781.829733
-e318242782.007771
+s318404330.387346
+e318404330.498420
 r1
 xCompileC
 xbuild/WeGoToo.build/Debug-iphonesimulator/WeGoToo.build/Objects-normal/i386/WeGoTooAppDelegate.o
@@ -293,11 +349,11 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@73"Compile /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/Classes/WeGoTooAppDelegate.m318242781#318242782#0(0"0(0#0#65"/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/Classes/WeGoTooAppDelegate.m8653364288#1928"    cd /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/WeGoToo.build/Debug-iphonesimulator/WeGoToo.build/WeGoToo-generated-files.hmap -I/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/WeGoToo.build/Debug-iphonesimulator/WeGoToo.build/WeGoToo-own-target-headers.hmap -I/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/WeGoToo.build/Debug-iphonesimulator/WeGoToo.build/WeGoToo-all-target-headers.hmap -iquote /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/WeGoToo.build/Debug-iphonesimulator/WeGoToo.build/WeGoToo-project-headers.hmap -F/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/Debug-iphonesimulator -I/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/Debug-iphonesimulator/include -I/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/WeGoToo.build/Debug-iphonesimulator/WeGoToo.build/DerivedSources/i386 -I/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/WeGoToo.build/Debug-iphonesimulator/WeGoToo.build/DerivedSources -include /var/folders/DE/DE-L9NAQHy4JThNNZwZ2Dk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WeGoToo_Prefix-bplwochdyeypwjfiszzpldyolare/WeGoToo_Prefix.pch -c /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/Classes/WeGoTooAppDelegate.m -o /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/WeGoToo.build/Debug-iphonesimulator/WeGoToo.build/Objects-normal/i386/WeGoTooAppDelegate.o0#
+lSLF07#2@73"Compile /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/Classes/WeGoTooAppDelegate.m318404330#318404330#0(0"0(0#0#65"/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/Classes/WeGoTooAppDelegate.m8607402240#1990"    cd /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/WeGoToo.build/Debug-iphonesimulator/WeGoToo.build/WeGoToo-generated-files.hmap -I/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/WeGoToo.build/Debug-iphonesimulator/WeGoToo.build/WeGoToo-own-target-headers.hmap -I/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/WeGoToo.build/Debug-iphonesimulator/WeGoToo.build/WeGoToo-all-target-headers.hmap -iquote /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/WeGoToo.build/Debug-iphonesimulator/WeGoToo.build/WeGoToo-project-headers.hmap -F/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/Debug-iphonesimulator -I/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/Debug-iphonesimulator/include -I/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/WeGoToo.build/Debug-iphonesimulator/WeGoToo.build/DerivedSources/i386 -I/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/WeGoToo.build/Debug-iphonesimulator/WeGoToo.build/DerivedSources -include /var/folders/DE/DE-L9NAQHy4JThNNZwZ2Dk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WeGoToo_Prefix-bplwochdyeypwjfiszzpldyolare/WeGoToo_Prefix.pch -c /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/Classes/WeGoTooAppDelegate.m -o /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/WeGoToo.build/Debug-iphonesimulator/WeGoToo.build/Objects-normal/i386/WeGoTooAppDelegate.o0#
 
 CCompileC build/WeGoToo.build/Debug-iphonesimulator/WeGoToo.build/Objects-normal/i386/main.o /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s318241342.238320
-e318241342.456599
+s318404330.341426
+e318404330.402343
 r1
 xCompileC
 xbuild/WeGoToo.build/Debug-iphonesimulator/WeGoToo.build/Objects-normal/i386/main.o
@@ -306,84 +362,107 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@51"Compile /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/main.m318241342#318241342#0(0"0(0#0#43"/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/main.m8656550048#1892"    cd /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/WeGoToo.build/Debug-iphonesimulator/WeGoToo.build/WeGoToo-generated-files.hmap -I/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/WeGoToo.build/Debug-iphonesimulator/WeGoToo.build/WeGoToo-own-target-headers.hmap -I/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/WeGoToo.build/Debug-iphonesimulator/WeGoToo.build/WeGoToo-all-target-headers.hmap -iquote /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/WeGoToo.build/Debug-iphonesimulator/WeGoToo.build/WeGoToo-project-headers.hmap -F/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/Debug-iphonesimulator -I/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/Debug-iphonesimulator/include -I/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/WeGoToo.build/Debug-iphonesimulator/WeGoToo.build/DerivedSources/i386 -I/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/WeGoToo.build/Debug-iphonesimulator/WeGoToo.build/DerivedSources -include /var/folders/DE/DE-L9NAQHy4JThNNZwZ2Dk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WeGoToo_Prefix-bplwochdyeypwjfiszzpldyolare/WeGoToo_Prefix.pch -c /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/main.m -o /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/WeGoToo.build/Debug-iphonesimulator/WeGoToo.build/Objects-normal/i386/main.o0#
+lSLF07#2@51"Compile /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/main.m318404330#318404330#0(0"0(0#0#43"/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/main.m8607736352#1954"    cd /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/WeGoToo.build/Debug-iphonesimulator/WeGoToo.build/WeGoToo-generated-files.hmap -I/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/WeGoToo.build/Debug-iphonesimulator/WeGoToo.build/WeGoToo-own-target-headers.hmap -I/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/WeGoToo.build/Debug-iphonesimulator/WeGoToo.build/WeGoToo-all-target-headers.hmap -iquote /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/WeGoToo.build/Debug-iphonesimulator/WeGoToo.build/WeGoToo-project-headers.hmap -F/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/Debug-iphonesimulator -I/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/Debug-iphonesimulator/include -I/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/WeGoToo.build/Debug-iphonesimulator/WeGoToo.build/DerivedSources/i386 -I/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/WeGoToo.build/Debug-iphonesimulator/WeGoToo.build/DerivedSources -include /var/folders/DE/DE-L9NAQHy4JThNNZwZ2Dk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WeGoToo_Prefix-bplwochdyeypwjfiszzpldyolare/WeGoToo_Prefix.pch -c /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/main.m -o /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/WeGoToo.build/Debug-iphonesimulator/WeGoToo.build/Objects-normal/i386/main.o0#
 
-CCompileXIB /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/Classes/../TripSearch.xib
-s318314433.645398
-e318314438.518286
+CCompileXIB /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/Classes/../FoundTripsView.xib
+s318405436.214396
+e318405436.645481
 r1
 xCompileXIB
-x/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/Classes/../TripSearch.xib
-oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
-lSLF07#2@36"CompileXIB Classes/../TripSearch.xib318314433#318314438#0(84"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#62"/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/Classes/../TripSearch.xib24488524844564592#637"    cd /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/Debug-iphonesimulator/WeGoToo.app/TripSearch.nib /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/Classes/../TripSearch.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+x/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/Classes/../FoundTripsView.xib
+lSLF07#2@40"CompileXIB Classes/../FoundTripsView.xib318405436#318405436#0(0"0(0#0#66"/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/Classes/../FoundTripsView.xib8608192704#645"    cd /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/Debug-iphonesimulator/WeGoToo.app/FoundTripsView.nib /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/Classes/../FoundTripsView.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
 
-CCompileXIB /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/Classes/MyTripsList.xib
-s318242781.204138
-e318242781.829392
+CCompileXIB /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/Classes/../FoundTripsViewController.xib
+s318404201.737380
+e318404203.228037
 r1
 xCompileXIB
-x/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/Classes/MyTripsList.xib
-lSLF07#2@34"CompileXIB Classes/MyTripsList.xib318242781#318242781#0(0"0(0#0#60"/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/Classes/MyTripsList.xib8653139776#574"    cd /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/Debug-iphonesimulator/WeGoToo.app/MyTripsList.nib /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/Classes/MyTripsList.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+x/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/Classes/../FoundTripsViewController.xib
+lSLF07#2@50"CompileXIB Classes/../FoundTripsViewController.xib318404201#318404203#0(0"0(0#0#76"/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/Classes/../FoundTripsViewController.xib8608056608#665"    cd /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/Debug-iphonesimulator/WeGoToo.app/FoundTripsViewController.nib /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/Classes/../FoundTripsViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
 
-CCompileXIB /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/Classes/TripSearch.xib
-s318324440.513502
-e318324441.002247
+CCompileXIB /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/Classes/FoundTripsView.xib
+s318404818.219665
+e318404819.131394
 r1
 xCompileXIB
-x/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/Classes/TripSearch.xib
-lSLF07#2@33"CompileXIB Classes/TripSearch.xib318324440#318324441#0(0"0(0#0#59"/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/Classes/TripSearch.xib8636537088#634"    cd /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/Debug-iphonesimulator/WeGoToo.app/TripSearch.nib /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/Classes/TripSearch.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+x/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/Classes/FoundTripsView.xib
+lSLF07#2@37"CompileXIB Classes/FoundTripsView.xib318404818#318404819#0(0"0(0#0#63"/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/Classes/FoundTripsView.xib8603660640#642"    cd /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/Debug-iphonesimulator/WeGoToo.app/FoundTripsView.nib /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/Classes/FoundTripsView.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/Classes/FoundTripsViewController.xib
+s318404443.593331
+e318404444.262670
+r1
+xCompileXIB
+x/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/Classes/FoundTripsViewController.xib
+lSLF07#2@47"CompileXIB Classes/FoundTripsViewController.xib318404443#318404444#0(0"0(0#0#73"/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/Classes/FoundTripsViewController.xib30962724183933048#662"    cd /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/Debug-iphonesimulator/WeGoToo.app/FoundTripsViewController.nib /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/Classes/FoundTripsViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/Classes/MyTripsView.xib
+s318404328.568950
+e318404328.973631
+r1
+xCompileXIB
+x/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/Classes/MyTripsView.xib
+lSLF07#2@34"CompileXIB Classes/MyTripsView.xib318404328#318404328#0(0"0(0#0#60"/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/Classes/MyTripsView.xib8608060768#636"    cd /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/Debug-iphonesimulator/WeGoToo.app/MyTripsView.nib /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/Classes/MyTripsView.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/Classes/TripSearchView.xib
+s318404328.973718
+e318404329.414860
+r1
+xCompileXIB
+x/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/Classes/TripSearchView.xib
+lSLF07#2@37"CompileXIB Classes/TripSearchView.xib318404328#318404329#0(0"0(0#0#63"/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/Classes/TripSearchView.xib8607144960#642"    cd /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/Debug-iphonesimulator/WeGoToo.app/TripSearchView.nib /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/Classes/TripSearchView.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/FoundTripsViewController.xib
+r0
 
 CCompileXIB /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/MainWindow.xib
-s318242778.562580
-e318242781.324459
+s318404328.568335
+e318404328.997322
 r1
 xCompileXIB
 x/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/MainWindow.xib
-lSLF07#2@25"CompileXIB MainWindow.xib318242778#318242781#0(0"0(0#0#51"/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/MainWindow.xib8654115264#564"    cd /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/Debug-iphonesimulator/WeGoToo.app/MainWindow.nib /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
-
-CCompileXIB /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/TripSearch.xib
-r0
+lSLF07#2@25"CompileXIB MainWindow.xib318404328#318404328#0(0"0(0#0#51"/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/MainWindow.xib8608478784#626"    cd /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/Debug-iphonesimulator/WeGoToo.app/MainWindow.nib /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
 
 CDataModelVersionCompile /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/Debug-iphonesimulator/WeGoToo.app/WeGoToo.momd /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/WeGoToo.xcdatamodeld
-s318241342.229848
-e318241342.344325
+s318404330.339861
+e318404330.387220
 r1
 xDataModelVersionCompile
 x/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/Debug-iphonesimulator/WeGoToo.app/WeGoToo.momd
 x/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/WeGoToo.xcdatamodeld
-lSLF07#2@97"DataModelVersionCompile build/Debug-iphonesimulator/WeGoToo.app/WeGoToo.momd WeGoToo.xcdatamodeld318241342#318241342#0(0"0(0#0#57"/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/WeGoToo.xcdatamodeld8656637632#380"    cd /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/momc -XD_MOMC_TARGET_VERSION=10.6 /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/WeGoToo.xcdatamodeld /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/Debug-iphonesimulator/WeGoToo.app/WeGoToo.momd0#
+lSLF07#2@97"DataModelVersionCompile build/Debug-iphonesimulator/WeGoToo.app/WeGoToo.momd WeGoToo.xcdatamodeld318404330#318404330#0(0"0(0#0#57"/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/WeGoToo.xcdatamodeld8607895264#442"    cd /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/momc -XD_MOMC_TARGET_VERSION=10.6 /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/WeGoToo.xcdatamodeld /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/Debug-iphonesimulator/WeGoToo.app/WeGoToo.momd0#
 
 CGenerateDSYMFile /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/Debug-iphonesimulator/WeGoToo.app.dSYM /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/Debug-iphonesimulator/WeGoToo.app/WeGoToo
-s318330186.416251
-e318330186.436533
+s318405793.432370
+e318405793.720587
 r1
 xGenerateDSYMFile
 x/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/Debug-iphonesimulator/WeGoToo.app.dSYM
 x/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/Debug-iphonesimulator/WeGoToo.app/WeGoToo
-lSLF07#2@109"GenerateDSYMFile build/Debug-iphonesimulator/WeGoToo.app.dSYM build/Debug-iphonesimulator/WeGoToo.app/WeGoToo318330186#318330186#0(0"0(0#0#84"/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/Debug-iphonesimulator/WeGoToo.app/WeGoToo8633783872#439"    cd /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/dsymutil /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/Debug-iphonesimulator/WeGoToo.app/WeGoToo -o /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/Debug-iphonesimulator/WeGoToo.app.dSYM0#
+lSLF07#2@109"GenerateDSYMFile build/Debug-iphonesimulator/WeGoToo.app.dSYM build/Debug-iphonesimulator/WeGoToo.app/WeGoToo318405793#318405793#0(0"0(0#0#84"/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/Debug-iphonesimulator/WeGoToo.app/WeGoToo8620480736#439"    cd /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/dsymutil /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/Debug-iphonesimulator/WeGoToo.app/WeGoToo -o /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/Debug-iphonesimulator/WeGoToo.app.dSYM0#
 
 CLd /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/Debug-iphonesimulator/WeGoToo.app/WeGoToo normal i386
-s318330186.393104
-e318330186.416148
+s318405793.021730
+e318405793.432278
 r1
 xLd
 x/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/Debug-iphonesimulator/WeGoToo.app/WeGoToo
 xnormal
 xi386
-lSLF07#2@89"Link /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/Debug-iphonesimulator/WeGoToo.app/WeGoToo318330186#318330186#0(0"0(0#0#0"8640148128#972"    cd /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -L/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/Debug-iphonesimulator -F/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/Debug-iphonesimulator -filelist /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/WeGoToo.build/Debug-iphonesimulator/WeGoToo.build/Objects-normal/i386/WeGoToo.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -framework CoreData -o /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/Debug-iphonesimulator/WeGoToo.app/WeGoToo0#
+lSLF07#2@89"Link /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/Debug-iphonesimulator/WeGoToo.app/WeGoToo318405793#318405793#0(0"0(0#0#0"8620487776#972"    cd /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -L/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/Debug-iphonesimulator -F/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/Debug-iphonesimulator -filelist /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/WeGoToo.build/Debug-iphonesimulator/WeGoToo.build/Objects-normal/i386/WeGoToo.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -framework CoreData -o /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/Debug-iphonesimulator/WeGoToo.app/WeGoToo0#
 
 CProcessInfoPlistFile /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/Debug-iphonesimulator/WeGoToo.app/Info.plist WeGoToo-Info.plist
-s318241340.044168
-e318241340.575280
+s318404328.546356
+e318404328.568259
 r1
 xProcessInfoPlistFile
 x/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/Debug-iphonesimulator/WeGoToo.app/Info.plist
 xWeGoToo-Info.plist
-lSLF07#2@26"Process WeGoToo-Info.plist318241340#318241340#0(0"0(0#0#55"/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/WeGoToo-Info.plist8635647360#473"    cd /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility WeGoToo-Info.plist -genpkginfo /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/Debug-iphonesimulator/WeGoToo.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/Debug-iphonesimulator/WeGoToo.app/Info.plist0#
+lSLF07#2@26"Process WeGoToo-Info.plist318404328#318404328#0(0"0(0#0#55"/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/WeGoToo-Info.plist8606995200#535"    cd /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    builtin-infoPlistUtility WeGoToo-Info.plist -genpkginfo /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/Debug-iphonesimulator/WeGoToo.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/Debug-iphonesimulator/WeGoToo.app/Info.plist0#
 
 CProcessPCH /var/folders/DE/DE-L9NAQHy4JThNNZwZ2Dk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WeGoToo_Prefix-bplwochdyeypwjfiszzpldyolare/WeGoToo_Prefix.pch.gch WeGoToo_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-s318241341.094628
-e318241342.229701
+s318404329.414970
+e318404330.339473
 r1
 xProcessPCH
 x/var/folders/DE/DE-L9NAQHy4JThNNZwZ2Dk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WeGoToo_Prefix-bplwochdyeypwjfiszzpldyolare/WeGoToo_Prefix.pch.gch
@@ -392,13 +471,13 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@29"Precompile WeGoToo_Prefix.pch318241341#318241342#0(0"0(0#0#55"/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/WeGoToo_Prefix.pch8654376864#1786"    cd /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/WeGoToo.build/Debug-iphonesimulator/WeGoToo.build/WeGoToo-generated-files.hmap -I/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/WeGoToo.build/Debug-iphonesimulator/WeGoToo.build/WeGoToo-own-target-headers.hmap -I/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/WeGoToo.build/Debug-iphonesimulator/WeGoToo.build/WeGoToo-all-target-headers.hmap -iquote /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/WeGoToo.build/Debug-iphonesimulator/WeGoToo.build/WeGoToo-project-headers.hmap -F/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/Debug-iphonesimulator -I/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/Debug-iphonesimulator/include -I/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/WeGoToo.build/Debug-iphonesimulator/WeGoToo.build/DerivedSources/i386 -I/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/WeGoToo.build/Debug-iphonesimulator/WeGoToo.build/DerivedSources -c /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/WeGoToo_Prefix.pch -o /var/folders/DE/DE-L9NAQHy4JThNNZwZ2Dk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WeGoToo_Prefix-bplwochdyeypwjfiszzpldyolare/WeGoToo_Prefix.pch.gch0#
+lSLF07#2@29"Precompile WeGoToo_Prefix.pch318404329#318404330#0(0"0(0#0#55"/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/WeGoToo_Prefix.pch8608097632#1848"    cd /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/WeGoToo.build/Debug-iphonesimulator/WeGoToo.build/WeGoToo-generated-files.hmap -I/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/WeGoToo.build/Debug-iphonesimulator/WeGoToo.build/WeGoToo-own-target-headers.hmap -I/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/WeGoToo.build/Debug-iphonesimulator/WeGoToo.build/WeGoToo-all-target-headers.hmap -iquote /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/WeGoToo.build/Debug-iphonesimulator/WeGoToo.build/WeGoToo-project-headers.hmap -F/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/Debug-iphonesimulator -I/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/Debug-iphonesimulator/include -I/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/WeGoToo.build/Debug-iphonesimulator/WeGoToo.build/DerivedSources/i386 -I/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/WeGoToo.build/Debug-iphonesimulator/WeGoToo.build/DerivedSources -c /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/WeGoToo_Prefix.pch -o /var/folders/DE/DE-L9NAQHy4JThNNZwZ2Dk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WeGoToo_Prefix-bplwochdyeypwjfiszzpldyolare/WeGoToo_Prefix.pch.gch0#
 
 CTouch /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/Debug-iphonesimulator/WeGoToo.app
-s318330186.436617
-e318330186.439003
+s318405793.720671
+e318405793.724023
 r1
 xTouch
 x/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/Debug-iphonesimulator/WeGoToo.app
-lSLF07#2@82"Touch /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/Debug-iphonesimulator/WeGoToo.app318330186#318330186#0(0"0(0#0#0"8631664352#336"    cd /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /usr/bin/touch -c /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/Debug-iphonesimulator/WeGoToo.app0#
+lSLF07#2@82"Touch /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/Debug-iphonesimulator/WeGoToo.app318405793#318405793#0(0"0(0#0#0"8620436512#336"    cd /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /usr/bin/touch -c /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/build/Debug-iphonesimulator/WeGoToo.app0#
 
