@@ -13,7 +13,7 @@
 	UITableViewCell *cell0;
 	UITableViewCell *cell1;
 	UITableViewCell *cell2;
-	FoundTripsViewController *foundTripsListViewController;
+	//FoundTripsViewController *foundTripsViewController;
 }
 
 @property (nonatomic, retain) IBOutlet UITableViewCell *cell0;

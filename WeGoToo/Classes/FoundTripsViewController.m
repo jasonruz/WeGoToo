@@ -7,7 +7,7 @@
 //
 
 #import "FoundTripsViewController.h"
-
+#import "TripDetailViewController.h"
 
 @implementation FoundTripsViewController
 
@@ -59,13 +59,13 @@
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
     // Return the number of sections.
-    return 0;
+    return 2;
 }
 
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     // Return the number of rows in the section.
-    return 0;
+    return 1;
 }
 
 
@@ -76,14 +76,20 @@
     
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     if (cell == nil) {
-        cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier] autorelease];
+        cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle
+									   reuseIdentifier:CellIdentifier] autorelease];
     }
     
     // Configure the cell...
-    
-    return cell;
+	[cell setAccessoryType:UITableViewCellAccessoryDisclosureIndicator];
+    [[cell textLabel] setText:@"Lucy Smith, Joe Bloggs, 2 others"];
+	[[cell detailTextLabel] setText:@"0.2 km away from Home	$2.00"];
+	return cell;
 }
 
+- (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section {
+	return @"Header Title";
+}
 
 /*
 // Override to support conditional editing of the table view.
@@ -130,13 +136,15 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     // Navigation logic may go here. Create and push another view controller.
-    /*
-    <#DetailViewController#> *detailViewController = [[<#DetailViewController#> alloc] initWithNibName:@"<#Nib name#>" bundle:nil];
+    
+    TripDetailViewController *tripDetailViewController = [[TripDetailViewController alloc] 
+														  initWithNibName:@"TripDetailView" 
+														  bundle:nil];
     // ...
     // Pass the selected object to the new view controller.
-    [self.navigationController pushViewController:detailViewController animated:YES];
-    [detailViewController release];
-    */
+    [self.navigationController pushViewController:tripDetailViewController animated:YES];
+    [tripDetailViewController release];
+    
 }
 
 

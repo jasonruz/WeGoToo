@@ -7,10 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-
+@class TripDetailViewController;
 
 @interface FoundTripsViewController : UITableViewController {
-
+	//TripDetailViewController *tripDetailViewController;
 }
 
 @end

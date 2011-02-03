@@ -312,7 +312,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>MyTripsViewController.h</string>
+								<string>TripDetailViewController.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -320,22 +320,24 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>MyTripsViewController.h</string>
+										<string>TripDetailViewController.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>8445580612FA7CA300AA0D15</string>
+										<string>8445584F12FA859C00AA0D15</string>
 										<key>history</key>
 										<array>
 											<string>848EF3C612F966BA0086349B</string>
 											<string>848EF46412F974260086349B</string>
 											<string>8473B74712FA76F600650E34</string>
-											<string>844557A412FA783A00AA0D15</string>
-											<string>8445580112FA7CA300AA0D15</string>
-											<string>8445580212FA7CA300AA0D15</string>
-											<string>8445580312FA7CA300AA0D15</string>
-											<string>8445580412FA7CA300AA0D15</string>
-											<string>8445580512FA7CA300AA0D15</string>
+											<string>8445580E12FA7E6500AA0D15</string>
+											<string>8445582C12FA814400AA0D15</string>
+											<string>8445583A12FA830700AA0D15</string>
+											<string>8445583B12FA830700AA0D15</string>
+											<string>8445583C12FA830700AA0D15</string>
+											<string>8445583D12FA830700AA0D15</string>
+											<string>8445584812FA856D00AA0D15</string>
+											<string>8445584912FA856D00AA0D15</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -533,13 +535,13 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>8445580912FA7CA300AA0D15</string>
+		<string>8445585012FA859C00AA0D15</string>
 		<string>1C530D57069F1CE1000CFCEE</string>
 		<string>8445580A12FA7CA300AA0D15</string>
 		<string>8445580B12FA7CA300AA0D15</string>
 		<string>1C78EAAD065D492600B07095</string>
-		<string>1CD10A99069EF8BA00B06720</string>
 		<string>8404C04A12F7F7F5008FE3A2</string>
+		<string>1CD10A99069EF8BA00B06720</string>
 		<string>/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/WeGoToo.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
@@ -559,6 +561,8 @@
 					<key>Dock</key>
 					<array>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -581,8 +585,6 @@
 							<string>449pt</string>
 						</dict>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -635,7 +637,7 @@
 			<key>WindowToolGUID</key>
 			<string>8404C04A12F7F7F5008FE3A2</string>
 			<key>WindowToolIsVisible</key>
-			<true/>
+			<false/>
 		</dict>
 		<dict>
 			<key>FirstTimeWindowDisplayed</key>
