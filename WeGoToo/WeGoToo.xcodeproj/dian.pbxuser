@@ -2,9 +2,9 @@
 {
 	1D3623240D0F684500981E51 /* WeGoTooAppDelegate.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {691, 459}}";
-			sepNavSelRange = "{649, 0}";
-			sepNavVisRange = "{0, 988}";
+			sepNavIntBoundsRect = "{{0, 0}, {691, 442}}";
+			sepNavSelRange = "{624, 0}";
+			sepNavVisRange = "{0, 957}";
 		};
 	};
 	1D3623250D0F684500981E51 /* WeGoTooAppDelegate.m */ = {
@@ -81,8 +81,8 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 318415116;
-			PBXWorkspaceStateSaveDate = 318415116;
+			PBXPerProjectTemplateStateSaveDate = 318415735;
+			PBXWorkspaceStateSaveDate = 318415735;
 		};
 		perUserProjectItems = {
 			8445580E12FA7E6500AA0D15 /* PBXTextBookmark */ = 8445580E12FA7E6500AA0D15 /* PBXTextBookmark */;
@@ -91,10 +91,10 @@
 			8445583B12FA830700AA0D15 /* PBXTextBookmark */ = 8445583B12FA830700AA0D15 /* PBXTextBookmark */;
 			8445583C12FA830700AA0D15 /* PBXTextBookmark */ = 8445583C12FA830700AA0D15 /* PBXTextBookmark */;
 			844558D512FAA25E00AA0D15 /* PBXTextBookmark */ = 844558D512FAA25E00AA0D15 /* PBXTextBookmark */;
-			844558D612FAA25E00AA0D15 /* PBXTextBookmark */ = 844558D612FAA25E00AA0D15 /* PBXTextBookmark */;
-			844558D712FAA25E00AA0D15 /* PBXTextBookmark */ = 844558D712FAA25E00AA0D15 /* PBXTextBookmark */;
+			844558FD12FAA3C700AA0D15 /* PBXTextBookmark */ = 844558FD12FAA3C700AA0D15 /* PBXTextBookmark */;
+			844558FE12FAA3C700AA0D15 /* PBXTextBookmark */ = 844558FE12FAA3C700AA0D15 /* PBXTextBookmark */;
+			844558FF12FAA3C700AA0D15 /* PBXTextBookmark */ = 844558FF12FAA3C700AA0D15 /* PBXTextBookmark */;
 			8473B74712FA76F600650E34 /* PBXTextBookmark */ = 8473B74712FA76F600650E34 /* PBXTextBookmark */;
-			848EF3C612F966BA0086349B /* PBXTextBookmark */ = 848EF3C612F966BA0086349B /* PBXTextBookmark */;
 			848EF46412F974260086349B /* PBXTextBookmark */ = 848EF46412F974260086349B /* PBXTextBookmark */;
 		};
 		sourceControlManager = 8404C04C12F7F7F5008FE3A2 /* Source Control */;
@@ -202,7 +202,7 @@
 		rLen = 0;
 		rLoc = 0;
 		rType = 0;
-		vrLen = 255;
+		vrLen = 242;
 		vrLoc = 0;
 	};
 	8445583A12FA830700AA0D15 /* PBXTextBookmark */ = {
@@ -237,7 +237,7 @@
 	};
 	844558CB12FAA14D00AA0D15 /* FoundTripsViewController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {512, 408}}";
+			sepNavIntBoundsRect = "{{0, 0}, {512, 400}}";
 			sepNavSelRange = "{0, 0}";
 			sepNavVisRange = "{0, 316}";
 		};
@@ -247,12 +247,12 @@
 		fRef = 8445582612FA810D00AA0D15 /* TripDetailViewController.m */;
 		name = "TripDetailViewController.m: 83";
 		rLen = 0;
-		rLoc = 2003;
+		rLoc = 1978;
 		rType = 0;
 		vrLen = 922;
 		vrLoc = 1524;
 	};
-	844558D612FAA25E00AA0D15 /* PBXTextBookmark */ = {
+	844558FD12FAA3C700AA0D15 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 844558CB12FAA14D00AA0D15 /* FoundTripsViewController.h */;
 		name = "FoundTripsViewController.h: 1";
@@ -262,14 +262,24 @@
 		vrLen = 316;
 		vrLoc = 0;
 	};
-	844558D712FAA25E00AA0D15 /* PBXTextBookmark */ = {
+	844558FE12FAA3C700AA0D15 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = 844558CB12FAA14D00AA0D15 /* FoundTripsViewController.h */;
-		name = "FoundTripsViewController.h: 1";
+		fRef = 1D3623240D0F684500981E51 /* WeGoTooAppDelegate.h */;
+		name = "WeGoTooAppDelegate.h: 23";
 		rLen = 0;
-		rLoc = 0;
+		rLoc = 624;
 		rType = 0;
-		vrLen = 316;
+		vrLen = 982;
+		vrLoc = 0;
+	};
+	844558FF12FAA3C700AA0D15 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* WeGoTooAppDelegate.h */;
+		name = "WeGoTooAppDelegate.h: 23";
+		rLen = 0;
+		rLoc = 624;
+		rType = 0;
+		vrLen = 957;
 		vrLoc = 0;
 	};
 	8473B74712FA76F600650E34 /* PBXTextBookmark */ = {
@@ -277,20 +287,10 @@
 		fRef = 1D3623250D0F684500981E51 /* WeGoTooAppDelegate.m */;
 		name = "WeGoTooAppDelegate.m: 16";
 		rLen = 1;
-		rLoc = 271;
+		rLoc = 246;
 		rType = 0;
 		vrLen = 1497;
 		vrLoc = 601;
-	};
-	848EF3C612F966BA0086349B /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 1D3623240D0F684500981E51 /* WeGoTooAppDelegate.h */;
-		name = "WeGoTooAppDelegate.h: 23";
-		rLen = 0;
-		rLoc = 649;
-		rType = 0;
-		vrLen = 988;
-		vrLoc = 0;
 	};
 	848EF46412F974260086349B /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;

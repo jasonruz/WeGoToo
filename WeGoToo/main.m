@@ -2,8 +2,8 @@
 //  main.m
 //  WeGoToo
 //
-//  Created by Dian Tjondronegoro on 1/02/11.
-//  Copyright 2011 __MyCompanyName__. All rights reserved.
+//  Created by Jason on 1/02/11.
+//  Copyright 2011 Jason. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

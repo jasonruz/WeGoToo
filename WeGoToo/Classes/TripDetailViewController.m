@@ -2,8 +2,8 @@
 //  TripDetailViewController.m
 //  WeGoToo
 //
-//  Created by Dian Tjondronegoro on 3/02/11.
-//  Copyright 2011 __MyCompanyName__. All rights reserved.
+//  Created by Jason on 3/02/11.
+//  Copyright 2011 Jason. All rights reserved.
 //
 
 #import "TripDetailViewController.h"
