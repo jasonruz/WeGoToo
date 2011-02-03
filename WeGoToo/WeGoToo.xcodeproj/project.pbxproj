@@ -17,10 +17,10 @@
 		28D801B40F44B63D00FB423F /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28D801B30F44B63D00FB423F /* CoreData.framework */; };
 		8404C08E12F7FE85008FE3A2 /* MyTripsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8404C08C12F7FE85008FE3A2 /* MyTripsViewController.m */; };
 		8404C08F12F7FE85008FE3A2 /* MyTripsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8404C08D12F7FE85008FE3A2 /* MyTripsView.xib */; };
-		844557E012FA7A1400AA0D15 /* FoundTripsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 844557DE12FA7A1400AA0D15 /* FoundTripsViewController.m */; };
-		844557E112FA7A1400AA0D15 /* FoundTripsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 844557DF12FA7A1400AA0D15 /* FoundTripsView.xib */; };
 		8445582812FA810D00AA0D15 /* TripDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8445582612FA810D00AA0D15 /* TripDetailViewController.m */; };
 		8445582912FA810D00AA0D15 /* TripDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8445582712FA810D00AA0D15 /* TripDetailView.xib */; };
+		844558CA12FAA13600AA0D15 /* FoundTripsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 844558C912FAA13600AA0D15 /* FoundTripsView.xib */; };
+		844558CD12FAA14D00AA0D15 /* FoundTripsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 844558CC12FAA14D00AA0D15 /* FoundTripsViewController.m */; };
 		845CBC1612FA6ED300A97891 /* TripSearchView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 845CBC1512FA6ED300A97891 /* TripSearchView.xib */; };
 		84A1E2A412F9182500BB82C8 /* TripSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A1E2A212F9182500BB82C8 /* TripSearchViewController.m */; };
 /* End PBXBuildFile section */
@@ -40,12 +40,12 @@
 		8404C08B12F7FE85008FE3A2 /* MyTripsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTripsViewController.h; sourceTree = "<group>"; };
 		8404C08C12F7FE85008FE3A2 /* MyTripsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTripsViewController.m; sourceTree = "<group>"; };
 		8404C08D12F7FE85008FE3A2 /* MyTripsView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyTripsView.xib; sourceTree = "<group>"; };
-		844557DD12FA7A1400AA0D15 /* FoundTripsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FoundTripsViewController.h; path = ../FoundTripsViewController.h; sourceTree = "<group>"; };
-		844557DE12FA7A1400AA0D15 /* FoundTripsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FoundTripsViewController.m; path = ../FoundTripsViewController.m; sourceTree = "<group>"; };
-		844557DF12FA7A1400AA0D15 /* FoundTripsView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = FoundTripsView.xib; path = ../FoundTripsView.xib; sourceTree = "<group>"; };
 		8445582512FA810D00AA0D15 /* TripDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TripDetailViewController.h; sourceTree = "<group>"; };
 		8445582612FA810D00AA0D15 /* TripDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TripDetailViewController.m; sourceTree = "<group>"; };
 		8445582712FA810D00AA0D15 /* TripDetailView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TripDetailView.xib; sourceTree = "<group>"; };
+		844558C912FAA13600AA0D15 /* FoundTripsView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FoundTripsView.xib; sourceTree = "<group>"; };
+		844558CB12FAA14D00AA0D15 /* FoundTripsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoundTripsViewController.h; sourceTree = "<group>"; };
+		844558CC12FAA14D00AA0D15 /* FoundTripsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoundTripsViewController.m; sourceTree = "<group>"; };
 		845CBC1512FA6ED300A97891 /* TripSearchView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TripSearchView.xib; sourceTree = "<group>"; };
 		84A1E2A112F9182500BB82C8 /* TripSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TripSearchViewController.h; sourceTree = "<group>"; };
 		84A1E2A212F9182500BB82C8 /* TripSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TripSearchViewController.m; sourceTree = "<group>"; };
@@ -70,9 +70,9 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				844557DD12FA7A1400AA0D15 /* FoundTripsViewController.h */,
-				844557DE12FA7A1400AA0D15 /* FoundTripsViewController.m */,
-				844557DF12FA7A1400AA0D15 /* FoundTripsView.xib */,
+				844558CB12FAA14D00AA0D15 /* FoundTripsViewController.h */,
+				844558CC12FAA14D00AA0D15 /* FoundTripsViewController.m */,
+				844558C912FAA13600AA0D15 /* FoundTripsView.xib */,
 				8404C08B12F7FE85008FE3A2 /* MyTripsViewController.h */,
 				8404C08C12F7FE85008FE3A2 /* MyTripsViewController.m */,
 				8404C08D12F7FE85008FE3A2 /* MyTripsView.xib */,
@@ -190,8 +190,8 @@
 				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
 				8404C08F12F7FE85008FE3A2 /* MyTripsView.xib in Resources */,
 				845CBC1612FA6ED300A97891 /* TripSearchView.xib in Resources */,
-				844557E112FA7A1400AA0D15 /* FoundTripsView.xib in Resources */,
 				8445582912FA810D00AA0D15 /* TripDetailView.xib in Resources */,
+				844558CA12FAA13600AA0D15 /* FoundTripsView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -207,8 +207,8 @@
 				28193060112F816700ECF9B4 /* WeGoToo.xcdatamodeld in Sources */,
 				8404C08E12F7FE85008FE3A2 /* MyTripsViewController.m in Sources */,
 				84A1E2A412F9182500BB82C8 /* TripSearchViewController.m in Sources */,
-				844557E012FA7A1400AA0D15 /* FoundTripsViewController.m in Sources */,
 				8445582812FA810D00AA0D15 /* TripDetailViewController.m in Sources */,
+				844558CD12FAA14D00AA0D15 /* FoundTripsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
