@@ -8,6 +8,7 @@
 
 #import "TripSearchViewController.h"
 #import "FoundTripsViewController.h"
+#import "WeGoTooAppDelegate.h"
 
 @implementation TripSearchViewController
 
@@ -20,9 +21,39 @@
 
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+	
+	// Configure the login/logout button
+	/*
+	_fbButton = [[FBLoginButton alloc] init];
+	_fbButton.isLoggedIn = NO;
+	[_fbButton updateImage];
+	
+	UIBarButtonItem *loginButton = [[UIBarButtonItem alloc]
+									initWithImage:[_fbButton buttonImage]
+									style:UIBarButtonItemStylePlain
+									target:self
+									action:@selector(login)];
+	[loginButton release];
+	*/
+	
+	// Plain text Login button
+	UIBarButtonItem *loginButton = [[UIBarButtonItem alloc] 
+									initWithTitle:@"Login"
+									style:UIBarButtonItemStylePlain 
+									target:self 
+									action:@selector(login)];
+    self.navigationItem.leftBarButtonItem = loginButton;
+    [loginButton release];
+	
+	 
 	[self setTitle:@"WeGoToo"];
 }
 
+- (IBAction)login {
+	NSLog(@"Login button pressed.");
+	WeGoTooAppDelegate *appDelegate = [WeGoTooAppDelegate sharedAppDelegate];
+	[appDelegate facebookAuthorize];
+}
 
 /*
 - (void)viewWillAppear:(BOOL)animated {
@@ -253,6 +284,7 @@
 
 
 - (void)dealloc {
+	[_fbButton release];
     [super dealloc];
 }
 

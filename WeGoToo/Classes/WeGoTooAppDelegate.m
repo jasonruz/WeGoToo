@@ -7,13 +7,54 @@
 //
 
 #import "WeGoTooAppDelegate.h"
+#import "FBConnect.h"
 
+// Your Facebook APP Id must be set before running this example
+// See http://www.facebook.com/developers/createapp.php
+// Also, your application must bind to the fb[app_id]:// URL
+// scheme (substitue [app_id] for your real Facebook app id).
+static NSString* kAppId = @"199979620015381";
+
+static WeGoTooAppDelegate *sharedInstance;
 
 @implementation WeGoTooAppDelegate
 
 @synthesize window;
 @synthesize tabBarController;
+@synthesize facebook = _facebook;
 
+#pragma mark -
+#pragma mark Shared AppDelegate
+- (id)init {
+	if (sharedInstance) {
+		NSLog(@"Error: You are creating a second AppController");
+	}
+	if (!kAppId) {
+		NSLog(@"missing app id!");
+		exit(1);
+		return nil;
+	}
+	
+	[super init];
+	sharedInstance = self; 
+	
+	if ((self = [super init])) {
+		_permissions =  [[NSArray arrayWithObjects:
+						  @"read_stream", @"offline_access",nil] retain];
+	}
+	
+	_facebook = [[Facebook alloc] initWithAppId:kAppId];
+	
+	return self; 
+}
+
++ (WeGoTooAppDelegate *)sharedAppDelegate {
+	return sharedInstance;
+}
+
+- (void)facebookAuthorize {
+	[_facebook authorize:_permissions delegate:self];
+}
 
 #pragma mark -
 #pragma mark Application lifecycle
@@ -26,6 +67,11 @@
     [self.window makeKeyAndVisible];
     
     return YES;
+}
+
+- (BOOL)application:(UIApplication *)application handleOpenURL:(NSURL *)url {
+	// ARGH! Where am I going to put the Facebook object / which controller?
+	return [_facebook handleOpenURL:url];
 }
 
 
@@ -195,6 +241,9 @@
     [managedObjectContext_ release];
     [managedObjectModel_ release];
     [persistentStoreCoordinator_ release];
+	
+	[_facebook release];
+	[_permissions release];
     
     [window release];
     [super dealloc];

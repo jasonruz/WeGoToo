@@ -2,16 +2,16 @@
 {
 	1D3623240D0F684500981E51 /* WeGoTooAppDelegate.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {691, 442}}";
-			sepNavSelRange = "{624, 0}";
-			sepNavVisRange = "{0, 957}";
+			sepNavIntBoundsRect = "{{0, 0}, {691, 559}}";
+			sepNavSelRange = "{1165, 0}";
+			sepNavVisRange = "{181, 991}";
 		};
 	};
 	1D3623250D0F684500981E51 /* WeGoTooAppDelegate.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1965, 2756}}";
-			sepNavSelRange = "{271, 1}";
-			sepNavVisRange = "{601, 1497}";
+			sepNavIntBoundsRect = "{{0, 0}, {1965, 3588}}";
+			sepNavSelRange = "{1211, 0}";
+			sepNavVisRange = "{838, 662}";
 		};
 	};
 	1D6058900D05DD3D006BFB54 /* WeGoToo */ = {
@@ -64,7 +64,7 @@
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
 				PBXFileTableDataSourceColumnWidthsKey = (
 					20,
-					334,
+					279,
 					20,
 					48,
 					43,
@@ -81,21 +81,87 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 318415735;
-			PBXWorkspaceStateSaveDate = 318415735;
+			PBXPerProjectTemplateStateSaveDate = 318485506;
+			PBXWorkspaceStateSaveDate = 318485506;
 		};
 		perUserProjectItems = {
-			8445580E12FA7E6500AA0D15 /* PBXTextBookmark */ = 8445580E12FA7E6500AA0D15 /* PBXTextBookmark */;
-			8445582C12FA814400AA0D15 /* PBXTextBookmark */ = 8445582C12FA814400AA0D15 /* PBXTextBookmark */;
-			8445583A12FA830700AA0D15 /* PBXTextBookmark */ = 8445583A12FA830700AA0D15 /* PBXTextBookmark */;
-			8445583B12FA830700AA0D15 /* PBXTextBookmark */ = 8445583B12FA830700AA0D15 /* PBXTextBookmark */;
-			8445583C12FA830700AA0D15 /* PBXTextBookmark */ = 8445583C12FA830700AA0D15 /* PBXTextBookmark */;
-			844558D512FAA25E00AA0D15 /* PBXTextBookmark */ = 844558D512FAA25E00AA0D15 /* PBXTextBookmark */;
-			844558FD12FAA3C700AA0D15 /* PBXTextBookmark */ = 844558FD12FAA3C700AA0D15 /* PBXTextBookmark */;
-			844558FE12FAA3C700AA0D15 /* PBXTextBookmark */ = 844558FE12FAA3C700AA0D15 /* PBXTextBookmark */;
-			844558FF12FAA3C700AA0D15 /* PBXTextBookmark */ = 844558FF12FAA3C700AA0D15 /* PBXTextBookmark */;
-			8473B74712FA76F600650E34 /* PBXTextBookmark */ = 8473B74712FA76F600650E34 /* PBXTextBookmark */;
-			848EF46412F974260086349B /* PBXTextBookmark */ = 848EF46412F974260086349B /* PBXTextBookmark */;
+			8445580E12FA7E6500AA0D15 = 8445580E12FA7E6500AA0D15 /* PBXTextBookmark */;
+			8445582C12FA814400AA0D15 = 8445582C12FA814400AA0D15 /* PBXTextBookmark */;
+			8445583A12FA830700AA0D15 = 8445583A12FA830700AA0D15 /* PBXTextBookmark */;
+			8445583B12FA830700AA0D15 = 8445583B12FA830700AA0D15 /* PBXTextBookmark */;
+			8445583C12FA830700AA0D15 = 8445583C12FA830700AA0D15 /* PBXTextBookmark */;
+			844558D512FAA25E00AA0D15 = 844558D512FAA25E00AA0D15 /* PBXTextBookmark */;
+			844558FD12FAA3C700AA0D15 = 844558FD12FAA3C700AA0D15 /* PBXTextBookmark */;
+			844558FE12FAA3C700AA0D15 = 844558FE12FAA3C700AA0D15 /* PBXTextBookmark */;
+			844558FF12FAA3C700AA0D15 = 844558FF12FAA3C700AA0D15 /* PBXTextBookmark */;
+			844559C712FBC19500AA0D15 /* PBXTextBookmark */ = 844559C712FBC19500AA0D15 /* PBXTextBookmark */;
+			844559C912FBC19500AA0D15 /* PBXTextBookmark */ = 844559C912FBC19500AA0D15 /* PBXTextBookmark */;
+			844559D012FBC1EE00AA0D15 /* PBXTextBookmark */ = 844559D012FBC1EE00AA0D15 /* PBXTextBookmark */;
+			844559D112FBC1EE00AA0D15 /* PBXTextBookmark */ = 844559D112FBC1EE00AA0D15 /* PBXTextBookmark */;
+			844559D212FBC1EE00AA0D15 /* PBXTextBookmark */ = 844559D212FBC1EE00AA0D15 /* PBXTextBookmark */;
+			844559D312FBC1EE00AA0D15 /* PBXTextBookmark */ = 844559D312FBC1EE00AA0D15 /* PBXTextBookmark */;
+			844559D412FBC1EE00AA0D15 /* PBXTextBookmark */ = 844559D412FBC1EE00AA0D15 /* PBXTextBookmark */;
+			84455A1212FBC59A00AA0D15 /* PBXTextBookmark */ = 84455A1212FBC59A00AA0D15 /* PBXTextBookmark */;
+			84455A1312FBC59A00AA0D15 /* PBXTextBookmark */ = 84455A1312FBC59A00AA0D15 /* PBXTextBookmark */;
+			84455A1412FBC59A00AA0D15 /* PBXTextBookmark */ = 84455A1412FBC59A00AA0D15 /* PBXTextBookmark */;
+			84455A1512FBC59A00AA0D15 /* PBXTextBookmark */ = 84455A1512FBC59A00AA0D15 /* PBXTextBookmark */;
+			84455A1612FBC59A00AA0D15 /* PBXTextBookmark */ = 84455A1612FBC59A00AA0D15 /* PBXTextBookmark */;
+			84455A1712FBC59A00AA0D15 /* PBXTextBookmark */ = 84455A1712FBC59A00AA0D15 /* PBXTextBookmark */;
+			84455A1B12FBC69100AA0D15 /* PBXTextBookmark */ = 84455A1B12FBC69100AA0D15 /* PBXTextBookmark */;
+			84455A1C12FBC69100AA0D15 /* PlistBookmark */ = 84455A1C12FBC69100AA0D15 /* PlistBookmark */;
+			84455A1D12FBC69100AA0D15 /* PBXTextBookmark */ = 84455A1D12FBC69100AA0D15 /* PBXTextBookmark */;
+			84455A1E12FBC69100AA0D15 /* PBXTextBookmark */ = 84455A1E12FBC69100AA0D15 /* PBXTextBookmark */;
+			84455A1F12FBC69100AA0D15 /* PBXTextBookmark */ = 84455A1F12FBC69100AA0D15 /* PBXTextBookmark */;
+			84455A2012FBC69100AA0D15 /* PBXTextBookmark */ = 84455A2012FBC69100AA0D15 /* PBXTextBookmark */;
+			84455A2112FBC69100AA0D15 /* PBXTextBookmark */ = 84455A2112FBC69100AA0D15 /* PBXTextBookmark */;
+			84455A2512FBC75800AA0D15 /* PBXTextBookmark */ = 84455A2512FBC75800AA0D15 /* PBXTextBookmark */;
+			84455A2612FBC75800AA0D15 /* PBXTextBookmark */ = 84455A2612FBC75800AA0D15 /* PBXTextBookmark */;
+			84455A2712FBC75800AA0D15 /* PBXTextBookmark */ = 84455A2712FBC75800AA0D15 /* PBXTextBookmark */;
+			84455A2812FBC75800AA0D15 /* PBXTextBookmark */ = 84455A2812FBC75800AA0D15 /* PBXTextBookmark */;
+			84455A2912FBC75800AA0D15 /* PBXTextBookmark */ = 84455A2912FBC75800AA0D15 /* PBXTextBookmark */;
+			84455A2F12FBC80600AA0D15 /* PBXTextBookmark */ = 84455A2F12FBC80600AA0D15 /* PBXTextBookmark */;
+			84455A3012FBC80600AA0D15 /* PBXTextBookmark */ = 84455A3012FBC80600AA0D15 /* PBXTextBookmark */;
+			84455A3112FBC80600AA0D15 /* PBXTextBookmark */ = 84455A3112FBC80600AA0D15 /* PBXTextBookmark */;
+			84455A3212FBC80600AA0D15 /* PBXTextBookmark */ = 84455A3212FBC80600AA0D15 /* PBXTextBookmark */;
+			84455A3312FBC80600AA0D15 /* PBXTextBookmark */ = 84455A3312FBC80600AA0D15 /* PBXTextBookmark */;
+			84455A3D12FBE8FD00AA0D15 /* PBXTextBookmark */ = 84455A3D12FBE8FD00AA0D15 /* PBXTextBookmark */;
+			84455A3E12FBE8FD00AA0D15 /* XCBuildMessageTextBookmark */ = 84455A3E12FBE8FD00AA0D15 /* XCBuildMessageTextBookmark */;
+			84455A3F12FBE8FD00AA0D15 /* PBXTextBookmark */ = 84455A3F12FBE8FD00AA0D15 /* PBXTextBookmark */;
+			84455A4012FBE8FD00AA0D15 /* PBXTextBookmark */ = 84455A4012FBE8FD00AA0D15 /* PBXTextBookmark */;
+			84455A4512FBEABB00AA0D15 /* PlistBookmark */ = 84455A4512FBEABB00AA0D15 /* PlistBookmark */;
+			84455A4612FBEABB00AA0D15 /* PBXTextBookmark */ = 84455A4612FBEABB00AA0D15 /* PBXTextBookmark */;
+			84455A4712FBEABB00AA0D15 /* PBXTextBookmark */ = 84455A4712FBEABB00AA0D15 /* PBXTextBookmark */;
+			84455A4812FBEABB00AA0D15 /* PBXTextBookmark */ = 84455A4812FBEABB00AA0D15 /* PBXTextBookmark */;
+			84455A4912FBEABB00AA0D15 /* PBXTextBookmark */ = 84455A4912FBEABB00AA0D15 /* PBXTextBookmark */;
+			84455A4A12FBEABB00AA0D15 /* PBXTextBookmark */ = 84455A4A12FBEABB00AA0D15 /* PBXTextBookmark */;
+			84455A5312FBEBAB00AA0D15 /* PBXTextBookmark */ = 84455A5312FBEBAB00AA0D15 /* PBXTextBookmark */;
+			84455A5412FBEBAB00AA0D15 /* XCBuildMessageTextBookmark */ = 84455A5412FBEBAB00AA0D15 /* XCBuildMessageTextBookmark */;
+			84455A5512FBEBAB00AA0D15 /* PBXTextBookmark */ = 84455A5512FBEBAB00AA0D15 /* PBXTextBookmark */;
+			84455A5612FBEBAB00AA0D15 /* PBXTextBookmark */ = 84455A5612FBEBAB00AA0D15 /* PBXTextBookmark */;
+			84455A6512FBED1F00AA0D15 /* PBXTextBookmark */ = 84455A6512FBED1F00AA0D15 /* PBXTextBookmark */;
+			84455A6612FBED1F00AA0D15 /* PBXTextBookmark */ = 84455A6612FBED1F00AA0D15 /* PBXTextBookmark */;
+			84455A6712FBED1F00AA0D15 /* PBXTextBookmark */ = 84455A6712FBED1F00AA0D15 /* PBXTextBookmark */;
+			84455A6812FBED1F00AA0D15 /* PBXTextBookmark */ = 84455A6812FBED1F00AA0D15 /* PBXTextBookmark */;
+			84455A6B12FBEDEE00AA0D15 /* PBXTextBookmark */ = 84455A6B12FBEDEE00AA0D15 /* PBXTextBookmark */;
+			84455A6C12FBEDEE00AA0D15 /* XCBuildMessageTextBookmark */ = 84455A6C12FBEDEE00AA0D15 /* XCBuildMessageTextBookmark */;
+			84455A6D12FBEDEE00AA0D15 /* PBXTextBookmark */ = 84455A6D12FBEDEE00AA0D15 /* PBXTextBookmark */;
+			84455A6E12FBEDEE00AA0D15 /* PBXTextBookmark */ = 84455A6E12FBEDEE00AA0D15 /* PBXTextBookmark */;
+			84455A6F12FBEDF000AA0D15 /* PBXTextBookmark */ = 84455A6F12FBEDF000AA0D15 /* PBXTextBookmark */;
+			84455A7012FBEDF000AA0D15 /* PBXTextBookmark */ = 84455A7012FBEDF000AA0D15 /* PBXTextBookmark */;
+			84455A7112FBEDF000AA0D15 /* PBXTextBookmark */ = 84455A7112FBEDF000AA0D15 /* PBXTextBookmark */;
+			84455A7212FBEDF000AA0D15 /* PBXTextBookmark */ = 84455A7212FBEDF000AA0D15 /* PBXTextBookmark */;
+			84455A7512FBEE1E00AA0D15 /* XCBuildMessageTextBookmark */ = 84455A7512FBEE1E00AA0D15 /* XCBuildMessageTextBookmark */;
+			84455A7612FBEE1E00AA0D15 /* PBXTextBookmark */ = 84455A7612FBEE1E00AA0D15 /* PBXTextBookmark */;
+			84455A7712FBEE1E00AA0D15 /* PBXTextBookmark */ = 84455A7712FBEE1E00AA0D15 /* PBXTextBookmark */;
+			84455A7812FBEE2500AA0D15 /* XCBuildMessageTextBookmark */ = 84455A7812FBEE2500AA0D15 /* XCBuildMessageTextBookmark */;
+			84455A7912FBEE2500AA0D15 /* PBXTextBookmark */ = 84455A7912FBEE2500AA0D15 /* PBXTextBookmark */;
+			84455A7A12FBEE2500AA0D15 /* PBXTextBookmark */ = 84455A7A12FBEE2500AA0D15 /* PBXTextBookmark */;
+			84455A7F12FBEEFB00AA0D15 /* PBXTextBookmark */ = 84455A7F12FBEEFB00AA0D15 /* PBXTextBookmark */;
+			84455A8012FBEEFB00AA0D15 /* PBXTextBookmark */ = 84455A8012FBEEFB00AA0D15 /* PBXTextBookmark */;
+			84455A8112FBEEFB00AA0D15 /* XCBuildMessageTextBookmark */ = 84455A8112FBEEFB00AA0D15 /* XCBuildMessageTextBookmark */;
+			84455A8212FBEEFB00AA0D15 /* PBXTextBookmark */ = 84455A8212FBEEFB00AA0D15 /* PBXTextBookmark */;
+			8473B74712FA76F600650E34 = 8473B74712FA76F600650E34 /* PBXTextBookmark */;
+			848EF46412F974260086349B = 848EF46412F974260086349B /* PBXTextBookmark */;
 		};
 		sourceControlManager = 8404C04C12F7F7F5008FE3A2 /* Source Control */;
 		userBuildSettings = {
@@ -106,6 +172,13 @@
 			sepNavIntBoundsRect = "{{0, 0}, {634, 282}}";
 			sepNavSelRange = "{268, 0}";
 			sepNavVisRange = "{0, 367}";
+		};
+	};
+	32CA4F630368D1EE00C91783 /* WeGoToo_Prefix.pch */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {614, 392}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 354}";
 		};
 	};
 	8404C04112F7F7D1008FE3A2 /* WeGoToo */ = {
@@ -220,7 +293,7 @@
 		fRef = 84A1E2A212F9182500BB82C8 /* TripSearchViewController.m */;
 		name = "TripSearchViewController.m: 130";
 		rLen = 0;
-		rLoc = 3824;
+		rLoc = 4700;
 		rType = 0;
 		vrLen = 1098;
 		vrLoc = 6432;
@@ -230,14 +303,14 @@
 		fRef = 84A1E2A112F9182500BB82C8 /* TripSearchViewController.h */;
 		name = "TripSearchViewController.h: 16";
 		rLen = 0;
-		rLoc = 317;
+		rLoc = 344;
 		rType = 0;
 		vrLen = 700;
 		vrLoc = 0;
 	};
 	844558CB12FAA14D00AA0D15 /* FoundTripsViewController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {512, 400}}";
+			sepNavIntBoundsRect = "{{0, 0}, {512, 392}}";
 			sepNavSelRange = "{0, 0}";
 			sepNavVisRange = "{0, 316}";
 		};
@@ -267,9 +340,9 @@
 		fRef = 1D3623240D0F684500981E51 /* WeGoTooAppDelegate.h */;
 		name = "WeGoTooAppDelegate.h: 23";
 		rLen = 0;
-		rLoc = 624;
+		rLoc = 765;
 		rType = 0;
-		vrLen = 982;
+		vrLen = 963;
 		vrLoc = 0;
 	};
 	844558FF12FAA3C700AA0D15 /* PBXTextBookmark */ = {
@@ -277,17 +350,709 @@
 		fRef = 1D3623240D0F684500981E51 /* WeGoTooAppDelegate.h */;
 		name = "WeGoTooAppDelegate.h: 23";
 		rLen = 0;
-		rLoc = 624;
+		rLoc = 765;
 		rType = 0;
 		vrLen = 957;
 		vrLoc = 0;
+	};
+	8445599E12FBBDA300AA0D15 /* FBDialog.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {705, 8580}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1082}";
+		};
+	};
+	844559C712FBC19500AA0D15 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 844559C812FBC19500AA0D15 /* TripSearchViewController.m */;
+		rLen = 28;
+		rLoc = 4083;
+		rType = 0;
+	};
+	844559C812FBC19500AA0D15 /* TripSearchViewController.m */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.objc;
+		name = TripSearchViewController.m;
+		path = /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/Classes/TripSearchViewController.m;
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavFolds = "{\n    c =     (\n                {\n            l = DetailViewController;\n            r = \"{7545, 24}\";\n            s = 1;\n        },\n                {\n            l = DetailViewController;\n            r = \"{7596, 24}\";\n            s = 1;\n        },\n                {\n            l = \"Nib name\";\n            r = \"{7646, 12}\";\n            s = 1;\n        }\n    );\n    r = \"{0, 8718}\";\n    s = 0;\n}";
+			sepNavIntBoundsRect = "{{0, 0}, {775, 3991}}";
+			sepNavSelRange = "{1414, 0}";
+			sepNavVisRange = "{1031, 690}";
+			sepNavWindowFrame = "{{38, 91}, {1231, 761}}";
+		};
+	};
+	844559C912FBC19500AA0D15 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 84A1E2A212F9182500BB82C8 /* TripSearchViewController.m */;
+		name = "TripSearchViewController.m: 125";
+		rLen = 28;
+		rLoc = 4083;
+		rType = 0;
+		vrLen = 366;
+		vrLoc = 4790;
+	};
+	844559D012FBC1EE00AA0D15 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* WeGoTooAppDelegate.m */;
+		name = "WeGoTooAppDelegate.m: 75";
+		rLen = 0;
+		rLoc = 3669;
+		rType = 0;
+		vrLen = 989;
+		vrLoc = 3776;
+	};
+	844559D112FBC1EE00AA0D15 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* WeGoTooAppDelegate.h */;
+		name = "WeGoTooAppDelegate.h: 10";
+		rLen = 0;
+		rLoc = 170;
+		rType = 0;
+		vrLen = 957;
+		vrLoc = 0;
+	};
+	844559D212FBC1EE00AA0D15 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8445599E12FBBDA300AA0D15 /* FBDialog.m */;
+		name = "FBDialog.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1082;
+		vrLoc = 0;
+	};
+	844559D312FBC1EE00AA0D15 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 84A1E2A112F9182500BB82C8 /* TripSearchViewController.h */;
+		name = "TripSearchViewController.h: 24";
+		rLen = 0;
+		rLoc = 695;
+		rType = 0;
+		vrLen = 719;
+		vrLoc = 0;
+	};
+	844559D412FBC1EE00AA0D15 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 844559C812FBC19500AA0D15 /* TripSearchViewController.m */;
+		name = "TripSearchViewController.m: 37";
+		rLen = 0;
+		rLoc = 1414;
+		rType = 0;
+		vrLen = 720;
+		vrLoc = 235;
+	};
+	844559F712FBC45A00AA0D15 /* FBLoginButton.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {607, 416}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 971}";
+		};
+	};
+	844559F812FBC45A00AA0D15 /* FBLoginButton.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {705, 910}}";
+			sepNavSelRange = "{758, 30}";
+			sepNavVisRange = "{827, 879}";
+		};
+	};
+	84455A1212FBC59A00AA0D15 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 84A1E2A112F9182500BB82C8 /* TripSearchViewController.h */;
+		name = "TripSearchViewController.h: 29";
+		rLen = 0;
+		rLoc = 675;
+		rType = 0;
+		vrLen = 850;
+		vrLoc = 32;
+	};
+	84455A1312FBC59A00AA0D15 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 844559F812FBC45A00AA0D15 /* FBLoginButton.m */;
+		name = "FBLoginButton.m: 22";
+		rLen = 0;
+		rLoc = 684;
+		rType = 0;
+		vrLen = 944;
+		vrLoc = 0;
+	};
+	84455A1412FBC59A00AA0D15 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 844559F712FBC45A00AA0D15 /* FBLoginButton.h */;
+		name = "FBLoginButton.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 968;
+		vrLoc = 3;
+	};
+	84455A1512FBC59A00AA0D15 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 844558CB12FAA14D00AA0D15 /* FoundTripsViewController.h */;
+		name = "FoundTripsViewController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 316;
+		vrLoc = 0;
+	};
+	84455A1612FBC59A00AA0D15 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 844559C812FBC19500AA0D15 /* TripSearchViewController.m */;
+		name = "TripSearchViewController.m: 39";
+		rLen = 0;
+		rLoc = 314;
+		rType = 0;
+		vrLen = 744;
+		vrLoc = 597;
+	};
+	84455A1712FBC59A00AA0D15 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 844559C812FBC19500AA0D15 /* TripSearchViewController.m */;
+		name = "TripSearchViewController.m: 56";
+		rLen = 0;
+		rLoc = 679;
+		rType = 0;
+		vrLen = 790;
+		vrLoc = 998;
+	};
+	84455A1B12FBC69100AA0D15 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32CA4F630368D1EE00C91783 /* WeGoToo_Prefix.pch */;
+		name = "WeGoToo_Prefix.pch: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 354;
+		vrLoc = 0;
+	};
+	84455A1C12FBC69100AA0D15 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* WeGoToo-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/WeGoToo-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	84455A1D12FBC69100AA0D15 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 844559F812FBC45A00AA0D15 /* FBLoginButton.m */;
+		name = "FBLoginButton.m: 24";
+		rLen = 30;
+		rLoc = 758;
+		rType = 0;
+		vrLen = 890;
+		vrLoc = 758;
+	};
+	84455A1E12FBC69100AA0D15 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* WeGoTooAppDelegate.h */;
+		name = "WeGoTooAppDelegate.h: 10";
+		rLen = 0;
+		rLoc = 170;
+		rType = 0;
+		vrLen = 957;
+		vrLoc = 0;
+	};
+	84455A1F12FBC69100AA0D15 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 84A1E2A112F9182500BB82C8 /* TripSearchViewController.h */;
+		name = "TripSearchViewController.h: 20";
+		rLen = 13;
+		rLoc = 397;
+		rType = 0;
+		vrLen = 850;
+		vrLoc = 32;
+	};
+	84455A2012FBC69100AA0D15 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 844559C812FBC19500AA0D15 /* TripSearchViewController.m */;
+		name = "TripSearchViewController.m: 54";
+		rLen = 9;
+		rLoc = 584;
+		rType = 0;
+		vrLen = 877;
+		vrLoc = 1058;
+	};
+	84455A2112FBC69100AA0D15 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 844559C812FBC19500AA0D15 /* TripSearchViewController.m */;
+		name = "TripSearchViewController.m: 314";
+		rLen = 0;
+		rLoc = 8686;
+		rType = 0;
+		vrLen = 865;
+		vrLoc = 1030;
+	};
+	84455A2512FBC75800AA0D15 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 844559F812FBC45A00AA0D15 /* FBLoginButton.m */;
+		name = "FBLoginButton.m: 24";
+		rLen = 30;
+		rLoc = 758;
+		rType = 0;
+		vrLen = 807;
+		vrLoc = 637;
+	};
+	84455A2612FBC75800AA0D15 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 844559F712FBC45A00AA0D15 /* FBLoginButton.h */;
+		name = "FBLoginButton.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 938;
+		vrLoc = 33;
+	};
+	84455A2712FBC75800AA0D15 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 84A1E2A112F9182500BB82C8 /* TripSearchViewController.h */;
+		name = "TripSearchViewController.h: 20";
+		rLen = 13;
+		rLoc = 397;
+		rType = 0;
+		vrLen = 794;
+		vrLoc = 32;
+	};
+	84455A2812FBC75800AA0D15 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 844559C812FBC19500AA0D15 /* TripSearchViewController.m */;
+		name = "TripSearchViewController.m: 59";
+		rLen = 0;
+		rLoc = 880;
+		rType = 0;
+		vrLen = 865;
+		vrLoc = 1030;
+	};
+	84455A2912FBC75800AA0D15 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 844559C812FBC19500AA0D15 /* TripSearchViewController.m */;
+		name = "TripSearchViewController.m: 64";
+		rLen = 0;
+		rLoc = 991;
+		rType = 0;
+		vrLen = 842;
+		vrLoc = 1107;
+	};
+	84455A2F12FBC80600AA0D15 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 844559F812FBC45A00AA0D15 /* FBLoginButton.m */;
+		name = "FBLoginButton.m: 24";
+		rLen = 30;
+		rLoc = 758;
+		rType = 0;
+		vrLen = 879;
+		vrLoc = 827;
+	};
+	84455A3012FBC80600AA0D15 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 844559F712FBC45A00AA0D15 /* FBLoginButton.h */;
+		name = "FBLoginButton.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 971;
+		vrLoc = 0;
+	};
+	84455A3112FBC80600AA0D15 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 844558CB12FAA14D00AA0D15 /* FoundTripsViewController.h */;
+		name = "FoundTripsViewController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 316;
+		vrLoc = 0;
+	};
+	84455A3212FBC80600AA0D15 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 844559C812FBC19500AA0D15 /* TripSearchViewController.m */;
+		name = "TripSearchViewController.m: 63";
+		rLen = 0;
+		rLoc = 906;
+		rType = 0;
+		vrLen = 945;
+		vrLoc = 1107;
+	};
+	84455A3312FBC80600AA0D15 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 844559C812FBC19500AA0D15 /* TripSearchViewController.m */;
+		name = "TripSearchViewController.m: 82";
+		rLen = 0;
+		rLoc = 1414;
+		rType = 0;
+		vrLen = 616;
+		vrLoc = 1715;
+	};
+	84455A3D12FBE8FD00AA0D15 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 84A1E2A112F9182500BB82C8 /* TripSearchViewController.h */;
+		name = "TripSearchViewController.h: 15";
+		rLen = 0;
+		rLoc = 233;
+		rType = 0;
+		vrLen = 862;
+		vrLoc = 20;
+	};
+	84455A3E12FBE8FD00AA0D15 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "'controller' undeclared (first use in this function)";
+		fRef = 1D3623250D0F684500981E51 /* WeGoTooAppDelegate.m */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 73;
+		rType = 1;
+	};
+	84455A3F12FBE8FD00AA0D15 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* WeGoTooAppDelegate.m */;
+		name = "WeGoTooAppDelegate.m: 47";
+		rLen = 0;
+		rLoc = 1690;
+		rType = 0;
+		vrLen = 1490;
+		vrLoc = 564;
+	};
+	84455A4012FBE8FD00AA0D15 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 844559C812FBC19500AA0D15 /* TripSearchViewController.m */;
+		name = "TripSearchViewController.m: 173";
+		rLen = 28;
+		rLoc = 4083;
+		rType = 0;
+		vrLen = 351;
+		vrLoc = 6207;
+	};
+	84455A4512FBEABB00AA0D15 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* WeGoToo-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			CFBundleURLTypes,
+			0,
+			CFBundleURLSchemes,
+			0,
+		);
+		name = "/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/WeGoToo-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	84455A4612FBEABB00AA0D15 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 84A1E2A112F9182500BB82C8 /* TripSearchViewController.h */;
+		name = "TripSearchViewController.h: 11";
+		rLen = 0;
+		rLoc = 169;
+		rType = 0;
+		vrLen = 795;
+		vrLoc = 20;
+	};
+	84455A4712FBEABB00AA0D15 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 844559C812FBC19500AA0D15 /* TripSearchViewController.m */;
+		name = "TripSearchViewController.m: 19";
+		rLen = 0;
+		rLoc = 358;
+		rType = 0;
+		vrLen = 849;
+		vrLoc = 193;
+	};
+	84455A4812FBEABB00AA0D15 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* WeGoTooAppDelegate.h */;
+		name = "WeGoTooAppDelegate.h: 11";
+		rLen = 0;
+		rLoc = 202;
+		rType = 0;
+		vrLen = 932;
+		vrLoc = 3;
+	};
+	84455A4912FBEABB00AA0D15 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* WeGoTooAppDelegate.m */;
+		name = "WeGoTooAppDelegate.m: 25";
+		rLen = 0;
+		rLoc = 635;
+		rType = 0;
+		vrLen = 746;
+		vrLoc = 126;
+	};
+	84455A4A12FBEABB00AA0D15 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* WeGoTooAppDelegate.m */;
+		name = "WeGoTooAppDelegate.m: 47";
+		rLen = 0;
+		rLoc = 1091;
+		rType = 0;
+		vrLen = 656;
+		vrLoc = 696;
+	};
+	84455A5312FBEBAB00AA0D15 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 844559C812FBC19500AA0D15 /* TripSearchViewController.m */;
+		name = "TripSearchViewController.m: 285";
+		rLen = 0;
+		rLoc = 8686;
+		rType = 0;
+		vrLen = 839;
+		vrLoc = 7786;
+	};
+	84455A5412FBEBAB00AA0D15 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "'facebook' undeclared (first use in this function)";
+		fRef = 1D3623250D0F684500981E51 /* WeGoTooAppDelegate.m */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 73;
+		rType = 1;
+	};
+	84455A5512FBEBAB00AA0D15 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* WeGoTooAppDelegate.m */;
+		name = "WeGoTooAppDelegate.m: 64";
+		rLen = 1;
+		rLoc = 1590;
+		rType = 0;
+		vrLen = 1374;
+		vrLoc = 1154;
+	};
+	84455A5612FBEBAB00AA0D15 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 844559C812FBC19500AA0D15 /* TripSearchViewController.m */;
+		name = "TripSearchViewController.m: 144";
+		rLen = 28;
+		rLoc = 4083;
+		rType = 0;
+		vrLen = 450;
+		vrLoc = 4710;
+	};
+	84455A6512FBED1F00AA0D15 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* WeGoTooAppDelegate.h */;
+		name = "WeGoTooAppDelegate.h: 35";
+		rLen = 41;
+		rLoc = 1034;
+		rType = 0;
+		vrLen = 853;
+		vrLoc = 0;
+	};
+	84455A6612FBED1F00AA0D15 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* WeGoTooAppDelegate.m */;
+		name = "WeGoTooAppDelegate.m: 68";
+		rLen = 0;
+		rLoc = 1626;
+		rType = 0;
+		vrLen = 561;
+		vrLoc = 635;
+	};
+	84455A6712FBED1F00AA0D15 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 84A1E2A112F9182500BB82C8 /* TripSearchViewController.h */;
+		name = "TripSearchViewController.h: 26";
+		rLen = 0;
+		rLoc = 675;
+		rType = 0;
+		vrLen = 771;
+		vrLoc = 3;
+	};
+	84455A6812FBED1F00AA0D15 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 844559C812FBC19500AA0D15 /* TripSearchViewController.m */;
+		name = "TripSearchViewController.m: 54";
+		rLen = 0;
+		rLoc = 1415;
+		rType = 0;
+		vrLen = 625;
+		vrLoc = 1064;
+	};
+	84455A6B12FBEDEE00AA0D15 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* WeGoTooAppDelegate.m */;
+		name = "WeGoTooAppDelegate.m: 64";
+		rLen = 1;
+		rLoc = 1590;
+		rType = 0;
+		vrLen = 1033;
+		vrLoc = 2658;
+	};
+	84455A6C12FBEDEE00AA0D15 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "'WeGoTooAppDelegate' undeclared (first use in this function)";
+		fRef = 844559C812FBC19500AA0D15 /* TripSearchViewController.m */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 54;
+		rType = 1;
+	};
+	84455A6D12FBEDEE00AA0D15 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 844559C812FBC19500AA0D15 /* TripSearchViewController.m */;
+		name = "TripSearchViewController.m: 53";
+		rLen = 0;
+		rLoc = 1305;
+		rType = 0;
+		vrLen = 717;
+		vrLoc = 1042;
+	};
+	84455A6E12FBEDEE00AA0D15 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 844559C812FBC19500AA0D15 /* TripSearchViewController.m */;
+		name = "TripSearchViewController.m: 145";
+		rLen = 28;
+		rLoc = 4083;
+		rType = 0;
+		vrLen = 450;
+		vrLoc = 4860;
+	};
+	84455A6F12FBEDF000AA0D15 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* WeGoTooAppDelegate.h */;
+		name = "WeGoTooAppDelegate.h: 35";
+		rLen = 41;
+		rLoc = 1034;
+		rType = 0;
+		vrLen = 853;
+		vrLoc = 0;
+	};
+	84455A7012FBEDF000AA0D15 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* WeGoTooAppDelegate.m */;
+		name = "WeGoTooAppDelegate.m: 42";
+		rLen = 0;
+		rLoc = 935;
+		rType = 0;
+		vrLen = 794;
+		vrLoc = 181;
+	};
+	84455A7112FBEDF000AA0D15 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 844559C812FBC19500AA0D15 /* TripSearchViewController.m */;
+		name = "TripSearchViewController.m: 53";
+		rLen = 0;
+		rLoc = 1414;
+		rType = 0;
+		vrLen = 626;
+		vrLoc = 1064;
+	};
+	84455A7212FBEDF000AA0D15 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 844559C812FBC19500AA0D15 /* TripSearchViewController.m */;
+		name = "TripSearchViewController.m: 53";
+		rLen = 0;
+		rLoc = 1325;
+		rType = 0;
+		vrLen = 614;
+		vrLoc = 1064;
+	};
+	84455A7512FBEE1E00AA0D15 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "'_permissions' undeclared (first use in this function)";
+		fRef = 844559C812FBC19500AA0D15 /* TripSearchViewController.m */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 55;
+		rType = 1;
+	};
+	84455A7612FBEE1E00AA0D15 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 844559C812FBC19500AA0D15 /* TripSearchViewController.m */;
+		name = "TripSearchViewController.m: 55";
+		rLen = 0;
+		rLoc = 1414;
+		rType = 0;
+		vrLen = 720;
+		vrLoc = 1031;
+	};
+	84455A7712FBEE1E00AA0D15 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 844559C812FBC19500AA0D15 /* TripSearchViewController.m */;
+		name = "TripSearchViewController.m: 146";
+		rLen = 28;
+		rLoc = 4083;
+		rType = 0;
+		vrLen = 450;
+		vrLoc = 4650;
+	};
+	84455A7812FBEE2500AA0D15 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "'_permissions' undeclared (first use in this function)";
+		fRef = 844559C812FBC19500AA0D15 /* TripSearchViewController.m */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 55;
+		rType = 1;
+	};
+	84455A7912FBEE2500AA0D15 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 844559C812FBC19500AA0D15 /* TripSearchViewController.m */;
+		name = "TripSearchViewController.m: 55";
+		rLen = 0;
+		rLoc = 1414;
+		rType = 0;
+		vrLen = 720;
+		vrLoc = 1031;
+	};
+	84455A7A12FBEE2500AA0D15 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 844559C812FBC19500AA0D15 /* TripSearchViewController.m */;
+		name = "TripSearchViewController.m: 146";
+		rLen = 28;
+		rLoc = 4083;
+		rType = 0;
+		vrLen = 450;
+		vrLoc = 4650;
+	};
+	84455A7F12FBEEFB00AA0D15 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 844559C812FBC19500AA0D15 /* TripSearchViewController.m */;
+		name = "TripSearchViewController.m: 56";
+		rLen = 0;
+		rLoc = 1414;
+		rType = 0;
+		vrLen = 575;
+		vrLoc = 1187;
+	};
+	84455A8012FBEEFB00AA0D15 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* WeGoTooAppDelegate.h */;
+		name = "WeGoTooAppDelegate.h: 39";
+		rLen = 0;
+		rLoc = 1165;
+		rType = 0;
+		vrLen = 991;
+		vrLoc = 181;
+	};
+	84455A8112FBEEFB00AA0D15 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "Expected ';' before 'authorize'";
+		fRef = 1D3623250D0F684500981E51 /* WeGoTooAppDelegate.m */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 55;
+		rType = 1;
+	};
+	84455A8212FBEEFB00AA0D15 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* WeGoTooAppDelegate.m */;
+		name = "WeGoTooAppDelegate.m: 56";
+		rLen = 0;
+		rLoc = 1211;
+		rType = 0;
+		vrLen = 662;
+		vrLoc = 838;
 	};
 	8473B74712FA76F600650E34 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 1D3623250D0F684500981E51 /* WeGoTooAppDelegate.m */;
 		name = "WeGoTooAppDelegate.m: 16";
 		rLen = 1;
-		rLoc = 246;
+		rLoc = 1177;
 		rType = 0;
 		vrLen = 1497;
 		vrLoc = 601;
@@ -311,17 +1076,17 @@
 	};
 	84A1E2A112F9182500BB82C8 /* TripSearchViewController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {512, 415}}";
-			sepNavSelRange = "{317, 0}";
-			sepNavVisRange = "{0, 700}";
+			sepNavIntBoundsRect = "{{0, 0}, {512, 416}}";
+			sepNavSelRange = "{675, 0}";
+			sepNavVisRange = "{3, 771}";
 		};
 	};
 	84A1E2A212F9182500BB82C8 /* TripSearchViewController.m */ = {
 		uiCtxt = {
-			sepNavFolds = "{\n    c =     (\n                {\n            l = DetailViewController;\n            r = \"{6669, 24}\";\n            s = 1;\n        },\n                {\n            l = DetailViewController;\n            r = \"{6720, 24}\";\n            s = 1;\n        },\n                {\n            l = \"Nib name\";\n            r = \"{6770, 12}\";\n            s = 1;\n        }\n    );\n    r = \"{0, 7820}\";\n    s = 0;\n}";
-			sepNavIntBoundsRect = "{{0, 0}, {1048, 3315}}";
-			sepNavSelRange = "{3824, 0}";
-			sepNavVisRange = "{6432, 1041}";
+			sepNavFolds = "{\n    c =     (\n                {\n            l = DetailViewController;\n            r = \"{6984, 24}\";\n            s = 1;\n        },\n                {\n            l = DetailViewController;\n            r = \"{7035, 24}\";\n            s = 1;\n        },\n                {\n            l = \"Nib name\";\n            r = \"{7085, 12}\";\n            s = 1;\n        }\n    );\n    r = \"{0, 8135}\";\n    s = 0;\n}";
+			sepNavIntBoundsRect = "{{0, 0}, {929, 3419}}";
+			sepNavSelRange = "{3522, 28}";
+			sepNavVisRange = "{4790, 366}";
 			sepNavWindowFrame = "{{38, 91}, {1231, 761}}";
 		};
 	};

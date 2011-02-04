@@ -7,6 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "FBLoginButton.h"
+
 @class FoundTripsViewController;
 
 @interface TripSearchViewController : UITableViewController {
@@ -14,6 +16,8 @@
 	UITableViewCell *cell1;
 	UITableViewCell *cell2;
 	//FoundTripsViewController *foundTripsViewController;
+	FBLoginButton* _fbButton;
+
 }
 
 @property (nonatomic, retain) IBOutlet UITableViewCell *cell0;
@@ -21,6 +25,7 @@
 @property (nonatomic, retain) IBOutlet UITableViewCell *cell2;
 @property (nonatomic, retain) IBOutlet UILabel *cell2Label;
 
+- (IBAction)login;
 - (IBAction)logHello;
 - (IBAction)sliderValueChanged:(UISlider *)slider;
 @end
