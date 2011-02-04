@@ -34,6 +34,10 @@
 		844559A912FBBDA300AA0D15 /* FBDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = 8445599E12FBBDA300AA0D15 /* FBDialog.m */; };
 		844559F912FBC45A00AA0D15 /* FBConnect.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 844559F612FBC45A00AA0D15 /* FBConnect.bundle */; };
 		844559FA12FBC45A00AA0D15 /* FBLoginButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 844559F812FBC45A00AA0D15 /* FBLoginButton.m */; };
+		84455ACA12FC0C1400AA0D15 /* Trip.m in Sources */ = {isa = PBXBuildFile; fileRef = 84455AC312FC0C1400AA0D15 /* Trip.m */; };
+		84455ACB12FC0C1400AA0D15 /* Participant.m in Sources */ = {isa = PBXBuildFile; fileRef = 84455AC512FC0C1400AA0D15 /* Participant.m */; };
+		84455ACC12FC0C1400AA0D15 /* Location.m in Sources */ = {isa = PBXBuildFile; fileRef = 84455AC712FC0C1400AA0D15 /* Location.m */; };
+		84455ACD12FC0C1400AA0D15 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 84455AC912FC0C1400AA0D15 /* Person.m */; };
 		845CBC1612FA6ED300A97891 /* TripSearchView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 845CBC1512FA6ED300A97891 /* TripSearchView.xib */; };
 		84A1E2A412F9182500BB82C8 /* TripSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A1E2A212F9182500BB82C8 /* TripSearchViewController.m */; };
 /* End PBXBuildFile section */
@@ -85,6 +89,14 @@
 		844559F612FBC45A00AA0D15 /* FBConnect.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = FBConnect.bundle; sourceTree = "<group>"; };
 		844559F712FBC45A00AA0D15 /* FBLoginButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBLoginButton.h; sourceTree = "<group>"; };
 		844559F812FBC45A00AA0D15 /* FBLoginButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBLoginButton.m; sourceTree = "<group>"; };
+		84455AC212FC0C1400AA0D15 /* Trip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Trip.h; sourceTree = "<group>"; };
+		84455AC312FC0C1400AA0D15 /* Trip.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Trip.m; sourceTree = "<group>"; };
+		84455AC412FC0C1400AA0D15 /* Participant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Participant.h; sourceTree = "<group>"; };
+		84455AC512FC0C1400AA0D15 /* Participant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Participant.m; sourceTree = "<group>"; };
+		84455AC612FC0C1400AA0D15 /* Location.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Location.h; sourceTree = "<group>"; };
+		84455AC712FC0C1400AA0D15 /* Location.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Location.m; sourceTree = "<group>"; };
+		84455AC812FC0C1400AA0D15 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		84455AC912FC0C1400AA0D15 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		845CBC1512FA6ED300A97891 /* TripSearchView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TripSearchView.xib; sourceTree = "<group>"; };
 		84A1E2A112F9182500BB82C8 /* TripSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TripSearchViewController.h; sourceTree = "<group>"; };
 		84A1E2A212F9182500BB82C8 /* TripSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TripSearchViewController.m; sourceTree = "<group>"; };
@@ -138,6 +150,7 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				84455ACE12FC0C1B00AA0D15 /* Entities */,
 				844559F412FBC44200AA0D15 /* FBLoginButton */,
 				8445598612FBBDA100AA0D15 /* FBConnect */,
 				080E96DDFE201D6D7F000001 /* Classes */,
@@ -227,6 +240,21 @@
 			name = FBLoginButton;
 			sourceTree = "<group>";
 		};
+		84455ACE12FC0C1B00AA0D15 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				84455AC212FC0C1400AA0D15 /* Trip.h */,
+				84455AC312FC0C1400AA0D15 /* Trip.m */,
+				84455AC412FC0C1400AA0D15 /* Participant.h */,
+				84455AC512FC0C1400AA0D15 /* Participant.m */,
+				84455AC612FC0C1400AA0D15 /* Location.h */,
+				84455AC712FC0C1400AA0D15 /* Location.m */,
+				84455AC812FC0C1400AA0D15 /* Person.h */,
+				84455AC912FC0C1400AA0D15 /* Person.m */,
+			);
+			name = Entities;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -311,6 +339,10 @@
 				844559A812FBBDA300AA0D15 /* FBLoginDialog.m in Sources */,
 				844559A912FBBDA300AA0D15 /* FBDialog.m in Sources */,
 				844559FA12FBC45A00AA0D15 /* FBLoginButton.m in Sources */,
+				84455ACA12FC0C1400AA0D15 /* Trip.m in Sources */,
+				84455ACB12FC0C1400AA0D15 /* Participant.m in Sources */,
+				84455ACC12FC0C1400AA0D15 /* Location.m in Sources */,
+				84455ACD12FC0C1400AA0D15 /* Person.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
