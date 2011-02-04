@@ -2,8 +2,8 @@
 //  Location.m
 //  WeGoToo
 //
-//  Created by Dian Tjondronegoro on 4/02/11.
-//  Copyright 2011 __MyCompanyName__. All rights reserved.
+//  Created by Jason on 4/02/11.
+//  Copyright 2011 Jason. All rights reserved.
 //
 
 #import "Location.h"

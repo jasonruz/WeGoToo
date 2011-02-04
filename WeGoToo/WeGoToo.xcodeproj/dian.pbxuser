@@ -239,25 +239,26 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 318485506;
-			PBXWorkspaceStateSaveDate = 318485506;
+			PBXPerProjectTemplateStateSaveDate = 318510074;
+			PBXWorkspaceStateSaveDate = 318510074;
 		};
 		perUserProjectItems = {
-			844558D512FAA25E00AA0D15 /* PBXTextBookmark */ = 844558D512FAA25E00AA0D15 /* PBXTextBookmark */;
-			84455A1B12FBC69100AA0D15 /* PBXTextBookmark */ = 84455A1B12FBC69100AA0D15 /* PBXTextBookmark */;
-			84455A3112FBC80600AA0D15 /* PBXTextBookmark */ = 84455A3112FBC80600AA0D15 /* PBXTextBookmark */;
-			84455A4512FBEABB00AA0D15 /* PlistBookmark */ = 84455A4512FBEABB00AA0D15 /* PlistBookmark */;
-			84455A9C12FBF4E700AA0D15 /* PBXTextBookmark */ = 84455A9C12FBF4E700AA0D15 /* PBXTextBookmark */;
-			84455A9E12FBF4E700AA0D15 /* PBXTextBookmark */ = 84455A9E12FBF4E700AA0D15 /* PBXTextBookmark */;
-			84455A9F12FBF4E700AA0D15 /* PBXTextBookmark */ = 84455A9F12FBF4E700AA0D15 /* PBXTextBookmark */;
-			84455AA012FBF4E700AA0D15 /* PBXTextBookmark */ = 84455AA012FBF4E700AA0D15 /* PBXTextBookmark */;
-			84455AA112FBF4E700AA0D15 /* PBXTextBookmark */ = 84455AA112FBF4E700AA0D15 /* PBXTextBookmark */;
-			84455ACF12FC0C2900AA0D15 /* PBXTextBookmark */ = 84455ACF12FC0C2900AA0D15 /* PBXTextBookmark */;
-			84455AD012FC0C2900AA0D15 /* PBXTextBookmark */ = 84455AD012FC0C2900AA0D15 /* PBXTextBookmark */;
-			84455B3212FC117F00AA0D15 /* XDModelBookmark */ = 84455B3212FC117F00AA0D15 /* XDModelBookmark */;
-			84455B3312FC117F00AA0D15 /* PBXTextBookmark */ = 84455B3312FC117F00AA0D15 /* PBXTextBookmark */;
-			84455B9A12FC131000AA0D15 /* PBXTextBookmark */ = 84455B9A12FC131000AA0D15 /* PBXTextBookmark */;
-			848EF46412F974260086349B /* PBXTextBookmark */ = 848EF46412F974260086349B /* PBXTextBookmark */;
+			843F36D812FC140C004BC220 /* PBXTextBookmark */ = 843F36D812FC140C004BC220 /* PBXTextBookmark */;
+			844558D512FAA25E00AA0D15 = 844558D512FAA25E00AA0D15 /* PBXTextBookmark */;
+			84455A1B12FBC69100AA0D15 = 84455A1B12FBC69100AA0D15 /* PBXTextBookmark */;
+			84455A3112FBC80600AA0D15 = 84455A3112FBC80600AA0D15 /* PBXTextBookmark */;
+			84455A4512FBEABB00AA0D15 = 84455A4512FBEABB00AA0D15 /* PlistBookmark */;
+			84455A9C12FBF4E700AA0D15 = 84455A9C12FBF4E700AA0D15 /* PBXTextBookmark */;
+			84455A9E12FBF4E700AA0D15 = 84455A9E12FBF4E700AA0D15 /* PBXTextBookmark */;
+			84455A9F12FBF4E700AA0D15 = 84455A9F12FBF4E700AA0D15 /* PBXTextBookmark */;
+			84455AA012FBF4E700AA0D15 = 84455AA012FBF4E700AA0D15 /* PBXTextBookmark */;
+			84455AA112FBF4E700AA0D15 = 84455AA112FBF4E700AA0D15 /* PBXTextBookmark */;
+			84455ACF12FC0C2900AA0D15 = 84455ACF12FC0C2900AA0D15 /* PBXTextBookmark */;
+			84455AD012FC0C2900AA0D15 = 84455AD012FC0C2900AA0D15 /* PBXTextBookmark */;
+			84455B3212FC117F00AA0D15 = 84455B3212FC117F00AA0D15 /* XDModelBookmark */;
+			84455B3312FC117F00AA0D15 = 84455B3312FC117F00AA0D15 /* PBXTextBookmark */;
+			84455B9A12FC131000AA0D15 = 84455B9A12FC131000AA0D15 /* PBXTextBookmark */;
+			848EF46412F974260086349B = 848EF46412F974260086349B /* PBXTextBookmark */;
 		};
 		sourceControlManager = 8404C04C12F7F7F5008FE3A2 /* Source Control */;
 		userBuildSettings = {
@@ -339,6 +340,16 @@
 			sepNavWindowFrame = "{{15, 112}, {1231, 761}}";
 		};
 	};
+	843F36D812FC140C004BC220 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 84455B3412FC117F00AA0D15 /* FBLoginButton.m */;
+		name = "FBLoginButton.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 940;
+		vrLoc = 0;
+	};
 	8445582512FA810D00AA0D15 /* TripDetailViewController.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {457, 393}}";
@@ -377,13 +388,6 @@
 		name = TripSearchViewController.m;
 		path = /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/Classes/TripSearchViewController.m;
 		sourceTree = "<absolute>";
-		uiCtxt = {
-			sepNavFolds = "{\n    c =     (\n                {\n            l = DetailViewController;\n            r = \"{7545, 24}\";\n            s = 1;\n        },\n                {\n            l = DetailViewController;\n            r = \"{7596, 24}\";\n            s = 1;\n        },\n                {\n            l = \"Nib name\";\n            r = \"{7646, 12}\";\n            s = 1;\n        }\n    );\n    r = \"{0, 8718}\";\n    s = 0;\n}";
-			sepNavIntBoundsRect = "{{0, 0}, {720, 3653}}";
-			sepNavSelRange = "{4083, 28}";
-			sepNavVisRange = "{4380, 615}";
-			sepNavWindowFrame = "{{38, 91}, {1231, 761}}";
-		};
 	};
 	84455A1B12FBC69100AA0D15 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -418,7 +422,7 @@
 		);
 		name = "/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/WeGoToo-Info.plist";
 		rLen = 0;
-		rLoc = 9223372036854775807;
+		rLoc = 9223372036854775808;
 	};
 	84455A9C12FBF4E700AA0D15 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -501,166 +505,6 @@
 		isa = XDModelBookmark;
 		fRef = 28C3AD890F43EF2300507BA6 /* WeGoToo.xcdatamodel */;
 		fallbackIsa = PBXBookmark;
-		uiCtxt = {
-			UIContextForDetailArea = {
-				_indexOfSelectedPane = 0;
-				_indexOfSelectedView = 0;
-			};
-			UIContextForEntityArea = {
-				_indexOfSelectedView = 0;
-				chosenTableColumnns = (
-					"ET Entity",
-					"ET Abstract",
-					"ET Class",
-				);
-				chosenTableColumnns_sortDirections = (
-					NO,
-				);
-				chosenTableColumnns_sortKeys = (
-					name,
-				);
-				chosenTableColumnns_sortSelectors = (
-					"_xdcaseInsensitiveNumericCompare:",
-				);
-				chosenTableWidths = (
-					61.000000,
-					22.000000,
-					68.080078,
-				);
-			};
-			UIContextForLayoutManager = {
-				detailSplitGeometry = {
-					_collapsingFrameDimension = 0;
-					_indexOfCollapsedView = 0;
-					_percentageOfCollapsedView = 0;
-					isCollapsed = yes;
-					sizes = (
-						"{{0, 0}, {465, 218}}",
-						"{{470, 0}, {244, 218}}",
-					);
-				};
-				diagramSplitGeometry = {
-					_collapsingFrameDimension = 0;
-					_indexOfCollapsedView = 0;
-					_percentageOfCollapsedView = 0;
-					isCollapsed = yes;
-					sizes = (
-						"{{0, 0}, {714, 220}}",
-						"{{0, 225}, {714, 269}}",
-					);
-				};
-				tableSplitGeometry = {
-					_collapsingFrameDimension = 0;
-					_indexOfCollapsedView = 0;
-					_percentageOfCollapsedView = 0;
-					isCollapsed = yes;
-					sizes = (
-						"{{0, 0}, {175, 218}}",
-						"{{180, 0}, {283, 218}}",
-					);
-				};
-			};
-			UIContextForPropertyArea = {
-				_indexOfSelectedView = 0;
-				chosenTableColumnnFRTs = (
-					"FT Fetch Request",
-					"FT Predicate",
-				);
-				chosenTableColumnnFRTs_sortDirections = (
-					YES,
-				);
-				chosenTableColumnnFRTs_sortKeys = (
-					name,
-				);
-				chosenTableColumnnFRTs_sortSelectors = (
-					"_xdcaseInsensitiveNumericCompare:",
-				);
-				chosenTableColumnnsAT = (
-					"AT Attribute",
-					"AT Type",
-				);
-				chosenTableColumnnsAT_sortDirections = (
-					YES,
-				);
-				chosenTableColumnnsAT_sortKeys = (
-					name,
-				);
-				chosenTableColumnnsAT_sortSelectors = (
-					"_xdcaseInsensitiveNumericCompare:",
-				);
-				chosenTableColumnnsFPT = (
-					"FP FetchedProperty",
-					"FP Destination",
-					"FP Predicate",
-				);
-				chosenTableColumnnsFPT_sortDirections = (
-					YES,
-				);
-				chosenTableColumnnsFPT_sortKeys = (
-					name,
-				);
-				chosenTableColumnnsFPT_sortSelectors = (
-					"_xdcaseInsensitiveNumericCompare:",
-				);
-				chosenTableColumnnsPT = (
-					"PT Property",
-					"PT Kind",
-					"PT SharedKeyOne",
-				);
-				chosenTableColumnnsPT_sortDirections = (
-					YES,
-				);
-				chosenTableColumnnsPT_sortKeys = (
-					name,
-				);
-				chosenTableColumnnsPT_sortSelectors = (
-					"_xdcaseInsensitiveNumericCompare:",
-				);
-				chosenTableColumnnsRT = (
-					"RT Relationship",
-					"RT Destination",
-				);
-				chosenTableColumnnsRT_sortDirections = (
-					YES,
-				);
-				chosenTableColumnnsRT_sortKeys = (
-					name,
-				);
-				chosenTableColumnnsRT_sortSelectors = (
-					"_xdcaseInsensitiveNumericCompare:",
-				);
-				chosenTableWidthsAT = (
-					128.000000,
-					64.000000,
-				);
-				chosenTableWidthsFPT = (
-					128.000000,
-					64.000000,
-					144.764160,
-				);
-				chosenTableWidthsFRT = (
-					128.000000,
-					249.764160,
-				);
-				chosenTableWidthsPT = (
-					128.000000,
-					108.110840,
-					96.570801,
-				);
-				chosenTableWidthsRT = (
-					128.000000,
-					64.000000,
-				);
-			};
-			"xdesign model browser state key - shown/hidden" = 1;
-			"xdesign model diagram view visible rect key" = "{{-1, 0}, {699, 254}}";
-			"xdesign model selected entities key" = (
-				"<XDPMEntity: 0x202314b40>{name=Trip, package=}",
-			);
-			"xdesign model selected properties key" = (
-				"<XDPMAttribute: 0x203d3b9e0>{name=arriveTime, type=(null)}",
-			);
-		};
 	};
 	84455B3312FC117F00AA0D15 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -679,9 +523,9 @@
 		path = /Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/FBLoginButton/FBLoginButton.m;
 		sourceTree = "<absolute>";
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {705, 871}}";
+			sepNavIntBoundsRect = "{{0, 0}, {705, 884}}";
 			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{0, 944}";
+			sepNavVisRange = "{0, 940}";
 		};
 	};
 	84455B6012FC12E700AA0D15 /* FBLoginButton.m */ = {
