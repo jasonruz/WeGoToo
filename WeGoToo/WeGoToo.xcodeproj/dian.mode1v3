@@ -266,14 +266,13 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateExpansionKey</key>
 							<array>
 								<string>29B97314FDCFA39411CA2CEA</string>
-								<string>844559F412FBC44200AA0D15</string>
 								<string>8445598612FBBDA100AA0D15</string>
 								<string>1C37FABC05509CD000000102</string>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>6</integer>
+									<integer>3</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -297,7 +296,7 @@
 							<real>186</real>
 						</array>
 						<key>RubberWindowFrame</key>
-						<string>678 81 924 732 0 0 1440 878 </string>
+						<string>113 134 924 732 0 0 1440 878 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -325,7 +324,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>84455B3512FC117F00AA0D15</string>
+										<string>84455B9A12FC131000AA0D15</string>
 										<key>history</key>
 										<array>
 											<string>848EF46412F974260086349B</string>
@@ -353,14 +352,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {716, 501}}</string>
+								<string>{{0, 0}, {716, 424}}</string>
 								<key>RubberWindowFrame</key>
-								<string>678 81 924 732 0 0 1440 878 </string>
+								<string>113 134 924 732 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>501pt</string>
+							<string>424pt</string>
 						</dict>
 						<dict>
 							<key>ContentConfiguration</key>
@@ -373,14 +372,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 506}, {716, 185}}</string>
+								<string>{{0, 429}, {716, 262}}</string>
 								<key>RubberWindowFrame</key>
-								<string>678 81 924 732 0 0 1440 878 </string>
+								<string>113 134 924 732 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
 							<key>Proportion</key>
-							<string>185pt</string>
+							<string>262pt</string>
 						</dict>
 					</array>
 					<key>Proportion</key>
@@ -550,7 +549,7 @@
 		<string>/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/WeGoToo.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
-	<string>678 81 924 732 0 0 1440 878 </string>
+	<string>113 134 924 732 0 0 1440 878 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>
