@@ -10,7 +10,8 @@
 #import <CoreData/CoreData.h>
 #import "FBConnect.h"
 
-@interface WeGoTooAppDelegate : NSObject <UIApplicationDelegate> {
+@interface WeGoTooAppDelegate : NSObject 
+	<UIApplicationDelegate, FBSessionDelegate> {
     UITabBarController* tabBarController;
     UIWindow *window;
 	Facebook* _facebook;

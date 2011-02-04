@@ -270,6 +270,7 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
+									<integer>3</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -323,13 +324,10 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>84455A8212FBEEFB00AA0D15</string>
+										<string>84455AA412FBF4E700AA0D15</string>
 										<key>history</key>
 										<array>
 											<string>848EF46412F974260086349B</string>
-											<string>8445580E12FA7E6500AA0D15</string>
-											<string>8445582C12FA814400AA0D15</string>
-											<string>8445583A12FA830700AA0D15</string>
 											<string>844558D512FAA25E00AA0D15</string>
 											<string>844559D212FBC1EE00AA0D15</string>
 											<string>84455A1B12FBC69100AA0D15</string>
@@ -337,10 +335,14 @@
 											<string>84455A3012FBC80600AA0D15</string>
 											<string>84455A3112FBC80600AA0D15</string>
 											<string>84455A4512FBEABB00AA0D15</string>
-											<string>84455A6712FBED1F00AA0D15</string>
-											<string>84455A7F12FBEEFB00AA0D15</string>
-											<string>84455A8012FBEEFB00AA0D15</string>
-											<string>84455A8112FBEEFB00AA0D15</string>
+											<string>84455A9C12FBF4E700AA0D15</string>
+											<string>84455A9D12FBF4E700AA0D15</string>
+											<string>84455A9E12FBF4E700AA0D15</string>
+											<string>84455A9F12FBF4E700AA0D15</string>
+											<string>84455AA012FBF4E700AA0D15</string>
+											<string>84455AA112FBF4E700AA0D15</string>
+											<string>84455AA212FBF4E700AA0D15</string>
+											<string>84455AA312FBF4E700AA0D15</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -538,15 +540,16 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>84455A8312FBEEFB00AA0D15</string>
+		<string>84455AA512FBF4E700AA0D15</string>
+		<string>84455A8D12FBF0DC00AA0D15</string>
 		<string>1C530D57069F1CE1000CFCEE</string>
 		<string>848EF38112F962AC0086349B</string>
 		<string>844559D812FBC1EE00AA0D15</string>
 		<string>844559D912FBC1EE00AA0D15</string>
-		<string>1C78EAAD065D492600B07095</string>
 		<string>1CD10A99069EF8BA00B06720</string>
 		<string>8404C04A12F7F7F5008FE3A2</string>
 		<string>/Volumes/TOSHIBA/iOS/WeGoToo/WeGoToo/WeGoToo.xcodeproj</string>
+		<string>1C78EAAD065D492600B07095</string>
 	</array>
 	<key>WindowString</key>
 	<string>1 146 726 732 0 0 1440 878 </string>
@@ -641,7 +644,7 @@
 			<key>WindowToolGUID</key>
 			<string>8404C04A12F7F7F5008FE3A2</string>
 			<key>WindowToolIsVisible</key>
-			<true/>
+			<false/>
 		</dict>
 		<dict>
 			<key>FirstTimeWindowDisplayed</key>
@@ -875,6 +878,8 @@
 					<key>Dock</key>
 					<array>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -920,25 +925,43 @@
 			<key>WindowToolGUID</key>
 			<string>1C78EAAD065D492600B07095</string>
 			<key>WindowToolIsVisible</key>
-			<false/>
+			<true/>
 		</dict>
 		<dict>
+			<key>FirstTimeWindowDisplayed</key>
+			<false/>
 			<key>Identifier</key>
 			<string>windowTool.snapshots</string>
+			<key>IsVertical</key>
+			<true/>
 			<key>Layout</key>
 			<array>
 				<dict>
 					<key>Dock</key>
 					<array>
 						<dict>
+							<key>ContentConfiguration</key>
+							<dict>
+								<key>PBXProjectModuleGUID</key>
+								<string>84455A8C12FBF0DC00AA0D15</string>
+								<key>PBXProjectModuleLabel</key>
+								<string>Snapshots</string>
+							</dict>
+							<key>GeometryConfiguration</key>
+							<dict>
+								<key>Frame</key>
+								<string>{{0, 0}, {300, 509}}</string>
+								<key>RubberWindowFrame</key>
+								<string>22 305 300 550 0 0 1440 878 </string>
+							</dict>
 							<key>Module</key>
 							<string>XCSnapshotModule</string>
 							<key>Proportion</key>
-							<string>100%</string>
+							<string>509pt</string>
 						</dict>
 					</array>
 					<key>Proportion</key>
-					<string>100%</string>
+					<string>509pt</string>
 				</dict>
 			</array>
 			<key>Name</key>
@@ -948,13 +971,21 @@
 				<string>XCSnapshotModule</string>
 			</array>
 			<key>StatusbarIsVisible</key>
-			<string>Yes</string>
+			<true/>
+			<key>TableOfContents</key>
+			<array>
+				<string>84455A8D12FBF0DC00AA0D15</string>
+				<string>84455A8E12FBF0DC00AA0D15</string>
+				<string>84455A8C12FBF0DC00AA0D15</string>
+			</array>
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.snapshots</string>
 			<key>WindowString</key>
-			<string>315 824 300 550 0 0 1440 878 </string>
+			<string>22 305 300 550 0 0 1440 878 </string>
+			<key>WindowToolGUID</key>
+			<string>84455A8D12FBF0DC00AA0D15</string>
 			<key>WindowToolIsVisible</key>
-			<string>Yes</string>
+			<false/>
 		</dict>
 		<dict>
 			<key>Identifier</key>

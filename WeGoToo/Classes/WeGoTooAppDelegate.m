@@ -57,6 +57,29 @@ static WeGoTooAppDelegate *sharedInstance;
 }
 
 #pragma mark -
+#pragma mark FBSessionDelegate
+/**
+ * Called when the user successfully logged in.
+ */
+- (void)fbDidLogin {
+	NSLog(@"User logged in.");
+}
+
+/**
+ * Called when the user dismissed the dialog without logging in.
+ */
+- (void)fbDidNotLogin:(BOOL)cancelled {
+	NSLog(@"User declined login.");
+}
+
+/**
+ * Called when the user logged out.
+ */
+- (void)fbDidLogout {	
+	NSLog(@"User logged out.");
+}
+
+#pragma mark -
 #pragma mark Application lifecycle
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {    
