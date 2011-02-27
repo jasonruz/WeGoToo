@@ -12,20 +12,20 @@
 @class FoundTripsViewController;
 
 @interface TripSearchViewController : UITableViewController {
-	UITableViewCell *cell0;
-	UITableViewCell *cell1;
-	UITableViewCell *cell2;
+	UITableViewCell *fromCell;
+	UITableViewCell *toCell;
+	UITextField *fromCellText;
+	UITextField *toCellText;
 	//FoundTripsViewController *foundTripsViewController;
 	FBLoginButton* _fbButton;
-
 }
 
-@property (nonatomic, retain) IBOutlet UITableViewCell *cell0;
-@property (nonatomic, retain) IBOutlet UITableViewCell *cell1;
-@property (nonatomic, retain) IBOutlet UITableViewCell *cell2;
-@property (nonatomic, retain) IBOutlet UILabel *cell2Label;
+@property (nonatomic, retain) IBOutlet UITableViewCell *fromCell;
+@property (nonatomic, retain) IBOutlet UITableViewCell *toCell;
+@property (nonatomic, retain) IBOutlet UITextField *fromCellText;
+@property (nonatomic, retain) IBOutlet UITextField *toCellText;
 
 - (IBAction)login;
-- (IBAction)logHello;
-- (IBAction)sliderValueChanged:(UISlider *)slider;
+//- (IBAction)logHello;
+//- (IBAction)sliderValueChanged:(UISlider *)slider;
 @end

@@ -9,8 +9,11 @@
 #import "TripSearchViewController.h"
 #import "FoundTripsViewController.h"
 #import "WeGoTooAppDelegate.h"
+#import "Trip.h"
+#import "Location.h"
 
 @implementation TripSearchViewController
+@synthesize fromCell, toCell, fromCellText, toCellText;
 
 #pragma mark -
 #pragma mark View lifecycle
@@ -121,10 +124,10 @@
 		// have been done in code using Style2
 		if ([indexPath row] == 0) {
 			// From Location cell
-			return cell0;
+			return fromCell;
 		}
 		// To Location cell
-		return cell1;
+		return toCell;
 /*	} else if ([indexPath section] == 3) {
 		UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"SegmentedCell"];
 		if (!cell) {
@@ -260,6 +263,37 @@
 
 - (void)findButtonPressed:(id)sender {
 	NSLog(@"Hi.");
+	
+	// TODO: Insert location into Trip.
+	/*
+	Trip *searchTrip = [[[Trip alloc] init] autore];
+	searchTrip.fromLocation = [[[Location alloc] init] autorelease];
+
+	AppController *ac = [AppController sharedAppController]; NSManagedObjectContext *moc = [ac managedObjectContext];
+	// Create a new object and insert it into the managed object context NSManagedObject *newLoc =
+	[NSEntityDescription insertNewObjectForEntityForName:@"Locati
+	 inManagedObjectContext:moc]; [newLoc setValue:value forKey:@"label"];
+	 [locationList addObject:newLoc];
+	*/					 
+	
+	// Access the moc from the shared application delegate instance
+	// in order to create a new Trip object
+	WeGoTooAppDelegate *ad = [WeGoTooAppDelegate sharedAppDelegate];
+	NSManagedObjectContext *moc = [ad managedObjectContext];
+	
+	Trip *searchTrip = (Trip *)[NSEntityDescription insertNewObjectForEntityForName:@"Trip"
+															 inManagedObjectContext:moc];
+	
+	Location *fromLocation = (Location *)[NSEntityDescription insertNewObjectForEntityForName:@"Location"
+																	   inManagedObjectContext:moc];
+	
+	[fromLocation setName:[fromCellText text]];
+	
+	// Add data to the searchTrip
+	[searchTrip setFromLocation:fromLocation];
+	
+	
+	// Display the Found Trips view
 	FoundTripsViewController *foundTripsViewController = [[FoundTripsViewController alloc] 
 														  initWithNibName:@"FoundTripsView"
 														  bundle:nil];
